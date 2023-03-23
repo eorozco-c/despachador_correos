@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block title %}Corus | Perfil{% endblock title %}
+{% block contenido %}
+<div class="d-flex justify-content-end">
+    <a href="{% url 'master:index' %}" class="align-self-center ms-2 mb-1 btn btn-primary text-light border botonnew"><i
+            class="far fa-arrow-alt-circle-left"></i> Volver al
+        menú</a>
+</div>
+{% if messages %}
+{% for message in messages %}
+<div class="alert alert-success alert-dismissible" role="alert">{{message}}
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+{% endfor %}
+{% endif %}
+<div class="mb-3 mt-3 container col-12">
+    <div class="row">
+        <div class="col-xl-6 col-md-6 mb-4">
+            <form method="POST" class="border border-primary p-3 rounded-3">
+                <h3 class="text-center">Editar Perfil</h3>
+                {% csrf_token %}
+                {{form|crispy}}
+                <div class="d-grid gap-2 col-2 mx-auto">
+                    <input type="submit" class="btn btn-primary mt-3 text-light border botonnew" name="editProfile"
+                        value="Editar">
+                </div>
+            </form>
+        </div>
+        <div class="col-xl-6 col-md-6 mb-4">
+            <form method="POST" class="border border-primary p-3 rounded-3">
+                <h3 class="text-center">Actualizar Contraseña</h3>
+                {% csrf_token %}
+                {{change_pass|crispy}}
+                <div class="d-grid gap-2 col-2 mx-auto">
+                    <input type="submit" class="btn btn-primary mt-3 text-light border  botonnew" name="changePassword"
+                        value="Actualizar">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock contenido %}
+{% block javascript %}
+<script>
+    $(".form-check").addClass("form-check-inline");
+</script>
+{% endblock javascript %}

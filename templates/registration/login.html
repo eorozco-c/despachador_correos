@@ -1,0 +1,49 @@
+    {% extends 'registration/base_login.html' %}
+    {% load static %}
+
+    {% block title %}Corus | Login{% endblock title %}
+
+    {% block contenido %}
+    {% if messages %}
+    {% for message in messages %}
+    <div class="alert alert-light alert-dismissible" role="alert">{{message}}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    {% endfor %}
+    {% endif %}
+    <form method="POST" class="mt-5 p-3 rounded-3 text-white">
+        {% csrf_token %}
+        {{form}}
+        <div class="d-grid gap-2 col-12 mx-auto">
+            <button type="submit" class="btn btn-primary mt-3 text-light border botonnew">INGRESAR</button>
+        </div>
+        <div class="d-flex justify-content-center mt-3">
+            <a href="{% url 'password_reset' %}" style="color:#fff;" class="fw-bold">Olvidaste tu
+                contraseña?</a>
+        </div>
+    </form>
+    {% endblock contenido %}
+
+    {% block javascript %}
+    <script type="text/javascript">
+        auto();
+
+        function auto() {
+            document.getElementById('exampleInputAnexo').style.display = 'none';
+        }
+
+        function habilitar(value) {
+            if (value == true) {
+                // habilitamos
+
+                document.getElementById("exampleInputAnexo").disabled = false;
+                document.getElementById('exampleInputAnexo').style.display = 'block';
+
+            } else if (value == false) {
+                // deshabilitamos
+                document.getElementById('exampleInputAnexo').style.display = 'none';
+                document.getElementById("exampleInputAnexo").disabled = true;
+            }
+        }
+    </script>
+    {% endblock javascript %}

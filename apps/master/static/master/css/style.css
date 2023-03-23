@@ -1,0 +1,19 @@
+.body_login {
+    background-color: black;
+  }
+
+.nombre_app {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.nombre_app:hover {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+  }

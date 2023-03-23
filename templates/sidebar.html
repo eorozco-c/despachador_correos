@@ -1,0 +1,67 @@
+{% load static %}
+<!-- Sidebar -->
+<ul class="navbar-nav bg-corus-sidebar sidebar sidebar-dark accordion fs-3 text" id="accordionSidebar">
+
+    <!-- Sidebar - Brand -->
+    <a class="sidebar-brand d-flex align-items-center justify-content-center m-1" href="/">
+        <div class="sidebar-brand-icon ">
+            <img width="100%" src="{% static 'master/img/fondos/new/logo_corus_i.svg' %}" alt="Icono blanco Corus">
+        </div>
+        <div class="sidebar-brand-text mx-3">
+            <img width="100%" src="{% static 'master/img/fondos/new/corus_blanco_d.svg' %}" alt="Corus Logo">
+        </div>
+
+    </a>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider my-0">
+
+    <!-- Nav Item - Dashboard -->
+    <li id="nav-dashboard" class="nav-item ">
+        <a class="nav-link" href="/">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Dashboard</span></a>
+    </li>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider">
+
+    <!-- Heading -->
+    <div class="sidebar-heading">
+        General
+    </div>
+
+    <!-- Nav Item - Pages Collapse Menu -->
+    {% if user.is_superuser  %}
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-bs-toggle="collapse"
+            data-bs-target="#collapseSA" aria-expanded="false" aria-controls="collapseSA">
+            <i class="fas fa-brain"></i>
+            <span>Super-Admin</span>
+        </a>
+        <div id="collapseSA" class="accordion-collapse collapse" aria-labelledby="headingOne"
+            data-bs-parent="#accordionSidebar">
+            <div class="bg-white py-2 font-weight-bold collapse-inner rounded">
+                <a id="nav-usuarios" class="collapse-item font-weight-bold"
+                    href="{% url 'usuarios:index' %}">Usuarios</a>
+
+                <!--
+                <a id="nav-servicios" class="collapse-item font-weight-bold" href="{% url 'servicios:index' %}">Estado
+                    Servicios</a>
+                -->
+            </div>
+        </div>
+    </li>
+    {% endif %}
+
+
+    <!-- Sidebar Toggler (Sidebar) -->
+    <hr class="sidebar-divider d-none d-md-block">
+
+    <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+    </div>
+</ul>
+{% block javascript %}
+
+{% endblock javascript %}

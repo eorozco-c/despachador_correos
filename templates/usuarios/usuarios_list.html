@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block contenido%}
+<!-- Page Heading -->
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <a href="{% url 'master:index' %}" class="align-self-center ms-2 mb-1 btn btn-primary text-light border"><i
+            class="far fa-arrow-alt-circle-left"></i> Volver al
+        menú</a>
+    <a href="{% url 'usuarios:crear' %}" class="align-self-center ms-2 mb-1 btn btn-success text-light border"><i
+            class="fas fa-plus-circle"></i> Agregar Usuario</a>
+</div>
+<div class=" mt-3">
+    <table id="tabla_base" class="table table-striped table-hover table-borderless" style="width:100%">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Email</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for usuario in object_list %}
+            <tr>
+                <td>{{usuario.id}}</td>
+                <td>{{usuario.first_name}}</td>
+                <td>{{usuario.last_name}}</td>
+                <td>{{usuario.email}}</td>
+                <td>
+                    {% comment %} {% if not usuario.is_superuser %}
+                    <a class="btn btn-primary btn-sm text-light border border-dark m-1"
+                        href="{% url 'usuarios:editar' pk=usuario.id %}" usuario="{{usuario.id}}" id="edit"><i
+                            class="fas fa-edit"></i></a>
+                    <a class="open-modal btn btn-danger btn-sm text-light border border-dark m-1" data-bs-toggle="modal"
+                        data-bs-target="#modal" data-popup-url="{% url 'usuarios:predestroy' pk=usuario.id %}" href="">
+                        <i class="fas fa-trash"></i> </a>
+                    {% endif %} {% endcomment %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<div class="modal fade" id="modal" tabindex="-1" notempty='not' aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog" notempty='not'>
+        <div class="modal-content" notempty='not'>
+            <div class="modal-header" notempty='not'>
+                <h5 class="modal-title " id="modalLabel" notempty='not'>¿Desea Eliminar al siguiente
+                    Usuario?:</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" notempty='not'>
+
+            </div>
+            <div class="modal-footer" notempty='not'>
+                <button id="close" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button id="delete" type="button" class="btn btn-danger">Eliminar</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock contenido %}
+{% block javascript %}
+<script>
+    $(".dataTable").on('click', '.open-modal', function () {
+        $.ajax({
+            type: "GET",
+            url: $(this).attr("data-popup-url"),
+            dataType: "json",
+            success: function (data) {
+                Datos =
+                    "<p notempty='not'> ID: " + data['id'] +
+                    "</p> <p notempty='not'> Nombre: " +
+                    data['nombre'] + " " + data['apellido'] +
+                    "</p> <p notempty='not'> Email: " +
+                    data['email'] +
+                    "</p>";
+                $(".modal-body").append(Datos);
+                $("#delete").click(function () {
+                    window.location.href = "/usuarios/destroy/" + data["id"];
+                })
+            }
+        });
+    });
+    $("#close").on("click", function () {
+        $(".modal-body").empty();
+    })
+
+    $('body').click(function (e) {
+        if ($(e.target).attr('notempty') != "not")
+            $(".modal-body").empty();
+    });
+</script>
+{% endblock javascript %}
