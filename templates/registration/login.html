@@ -23,27 +23,3 @@
         </div>
     </form>
     {% endblock contenido %}
-
-    {% block javascript %}
-    <script type="text/javascript">
-        auto();
-
-        function auto() {
-            document.getElementById('exampleInputAnexo').style.display = 'none';
-        }
-
-        function habilitar(value) {
-            if (value == true) {
-                // habilitamos
-
-                document.getElementById("exampleInputAnexo").disabled = false;
-                document.getElementById('exampleInputAnexo').style.display = 'block';
-
-            } else if (value == false) {
-                // deshabilitamos
-                document.getElementById('exampleInputAnexo').style.display = 'none';
-                document.getElementById("exampleInputAnexo").disabled = true;
-            }
-        }
-    </script>
-    {% endblock javascript %}
