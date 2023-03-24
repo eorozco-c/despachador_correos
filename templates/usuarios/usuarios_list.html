@@ -28,14 +28,14 @@
                 <td>{{usuario.last_name}}</td>
                 <td>{{usuario.email}}</td>
                 <td>
-                    {% comment %} {% if not usuario.is_superuser %}
+                    {% if not usuario.is_superuser %}
                     <a class="btn btn-primary btn-sm text-light border border-dark m-1"
                         href="{% url 'usuarios:editar' pk=usuario.id %}" usuario="{{usuario.id}}" id="edit"><i
                             class="fas fa-edit"></i></a>
                     <a class="open-modal btn btn-danger btn-sm text-light border border-dark m-1" data-bs-toggle="modal"
                         data-bs-target="#modal" data-popup-url="{% url 'usuarios:predestroy' pk=usuario.id %}" href="">
                         <i class="fas fa-trash"></i> </a>
-                    {% endif %} {% endcomment %}
+                    {% endif %}
                 </td>
             </tr>
             {% endfor %}
@@ -62,6 +62,7 @@
     </div>
 </div>
 {% endblock contenido %}
+
 {% block javascript %}
 <script>
     $(".dataTable").on('click', '.open-modal', function () {

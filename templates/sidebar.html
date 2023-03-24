@@ -5,12 +5,8 @@
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center m-1" href="/">
         <div class="sidebar-brand-icon ">
-            <img width="100%" src="{% static 'master/img/fondos/new/logo_corus_i.svg' %}" alt="Icono blanco Corus">
+            <h4>Despachador</h4>
         </div>
-        <div class="sidebar-brand-text mx-3">
-            <img width="100%" src="{% static 'master/img/fondos/new/corus_blanco_d.svg' %}" alt="Corus Logo">
-        </div>
-
     </a>
 
     <!-- Divider -->
@@ -45,10 +41,10 @@
                 <a id="nav-usuarios" class="collapse-item font-weight-bold"
                     href="{% url 'usuarios:index' %}">Usuarios</a>
 
-                <!--
-                <a id="nav-servicios" class="collapse-item font-weight-bold" href="{% url 'servicios:index' %}">Estado
-                    Servicios</a>
-                -->
+                {% comment %} <a id="nav-servicios" class="collapse-item font-weight-bold"
+                    href="{% url 'servicios:index' %}">Estado
+                    Servicios</a> {% endcomment %}
+
             </div>
         </div>
     </li>
