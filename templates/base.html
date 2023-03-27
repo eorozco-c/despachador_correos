@@ -30,57 +30,40 @@
     <title class="edit_appname">Corus | {{appname|capfirst}}</title>
 </head>
 
-<body> <!-- id="page-top"> -->
-
-
-      <!-- <div id="content-wrapper" class="d-flex flex-column"> -->
-
-        <!-- Main Content -->
-        <div class="container-fixed"> <!-- id="content"> -->
-
-            <!-- Topbar -->
-            {% include "topbar.html" %}
-            <!-- End of Topbar -->
-           
-            <div class="row" >
-                <div class="col-sm-2 border-right border-secondary">
-                
-                    <!-- sidebar -->
-                    {% include "sidebar.html" %}
-                    <!-- End sidebar -->
-                    
-                </div>
-                <div class="col-sm-10 pt-4"style="background:#e3e6ed">
-
-                    {% block contenido %}{% endblock contenido %}
-                </div>
-                    
-              </div>
-
-          
-
-         
-        </div>
-        <!-- End of Main Content -->
-
+<body id="page-top">
     <!-- Page Wrapper -->
-    <!-- <div id="wrapper"> -->
+    <div id="wrapper">
 
-
+        <!-- sidebar -->
+        {% include "sidebar.html" %}
+        <!-- End sidebar -->
 
         <!-- Content Wrapper -->
-       
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                {% include "topbar.html" %}
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+                    {% block contenido %}{% endblock contenido %}
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+            <!-- End of Main Content -->
+
             <!-- Footer -->
-            <footer class="sticky-footer bg-white border-top border-secondary">
-                
-                <div class="container my-auto center">
-                    
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
                     <div class="copyright text-center my-auto">
                         <a href="https://www.telectronic.com"
                             class="mb-3 ms-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
                             <span class="text-muted">Copyright &copy; 2020 - <span id="copyright"></span>
-                             </span> www.telectronic.com
-                                 
+                                Telectronic</span>
                         </a>
                     </div>
                 </div>
