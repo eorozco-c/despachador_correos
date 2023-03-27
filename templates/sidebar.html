@@ -40,11 +40,10 @@
             <div class="bg-white py-2 font-weight-bold collapse-inner rounded">
                 <a id="nav-usuarios" class="collapse-item font-weight-bold"
                     href="{% url 'usuarios:index' %}">Usuarios</a>
-
-                {% comment %} <a id="nav-servicios" class="collapse-item font-weight-bold"
-                    href="{% url 'servicios:index' %}">Estado
-                    Servicios</a> {% endcomment %}
-
+                <a id="nav-casillas" class="collapse-item font-weight-bold"
+                    href="{% url 'configuraciones:casillas' %}">Casillas</a>
+                {% comment %} <a id="nav-configuraciones" class="collapse-item font-weight-bold"
+                    href="{% url 'configuraciones:index' %}">Configuraciones</a> {% endcomment %}
             </div>
         </div>
     </li>

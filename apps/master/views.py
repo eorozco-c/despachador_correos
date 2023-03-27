@@ -3,6 +3,7 @@ from django.contrib.auth.decorators import login_required
 from django.urls import reverse_lazy
 
 from apps.usuarios.models import Usuario
+from apps.configuraciones.models import TipoServicio
 
 # from apps.usuarios.models import Usuario
 
@@ -10,6 +11,12 @@ from apps.usuarios.models import Usuario
 
 def index(request):
     if request.method == "GET":
+        if TipoServicio.objects.count() == 0:
+            TipoServicio.objects.bulk_create([
+                TipoServicio(nombre="Microsoft"),
+                TipoServicio(nombre="Google"),
+                TipoServicio(nombre="Otro"),
+            ])
         if Usuario.objects.count() == 0:
             return redirect("usuarios:registrar")
         if request.user.is_authenticated:
