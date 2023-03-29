@@ -10,4 +10,6 @@ urlpatterns = [
     path('casillas/editar/<int:pk>/', views.EditarCasilla.as_view(), name='editar_casilla'),
     path('casillas/predestroy/<int:pk>/', views.predestroy_casilla, name='predestroy_casilla'),
     path('casillas/destroy/<int:pk>/', views.destroy_casilla, name='destroy_casilla'),
+    path('configuracion/crear/', views.CrearConfiguracion.as_view(), name='crear_configuracion'),
+    path('configuracion/editar/<int:pk>/', views.EditarConfiguracion.as_view(), name='editar_configuracion'),
 ]
