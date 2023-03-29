@@ -19,7 +19,6 @@ class TipoServicio(models.Model):
         return self.nombre
 
 class Configuracion(models.Model):
-    #nombre = models.CharField(max_length=45)
     protocolo = models.CharField(max_length=10,blank=True,null=True)
     id_usuario = models.CharField(max_length=255,blank=True,null=True)
     id_tenant = models.CharField(max_length=255,blank=True,null=True)

@@ -92,8 +92,6 @@ def destroy_casilla(request, pk):
     return redirect("configuraciones:casillas")
 
 # Crear configuracion.
-
-    
 @method_decorator(login_required, name='dispatch')
 class CrearConfiguracion(CreateView):
     template_name = "configuraciones/configuraciones.html"
@@ -115,21 +113,15 @@ class CrearConfiguracion(CreateView):
         else:
             return redirect("marter:menu")
         
-    
     def get_success_url(self):
         return reverse_lazy('configuraciones:editar_configuracion', kwargs={'pk': self.object.id})
     
- 
- # Modificar configuracion.
-
+# Modificar configuracion.
 @method_decorator(login_required, name='dispatch')
-
 class EditarConfiguracion(UpdateView):
-
     template_name = "configuraciones/configuraciones.html"
     model = Configuracion
     form_class = FormularioConfiguracion
-   
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -144,7 +136,6 @@ class EditarConfiguracion(UpdateView):
             return redirect(reverse_lazy('master:menu'))
    
     def get_object(self):
-
         return Configuracion.objects.last()
     
     def get_success_url(self):

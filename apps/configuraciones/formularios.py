@@ -32,7 +32,6 @@ class FormularioCasilla(forms.ModelForm):
 #Formulario de Configuraciones
 
 class FormularioConfiguracion(forms.ModelForm):
-
     class Meta:        
         model = Configuracion
         fields = ["casilla","tipo_servicio","id_usuario","id_tenant","id_app","id_key","api_key","protocolo"]
