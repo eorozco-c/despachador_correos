@@ -6,9 +6,6 @@
     <a href="{% url 'master:index' %}" class="align-self-center ms-2 mb-1 btn btn-primary text-light border"><i
             class="far fa-arrow-alt-circle-left"></i> Volver al
         menú</a>
-    {% comment %} <a href="{% url 'correos:crear' %}" class="align-self-center ms-2 mb-1 btn btn-success text-light border"><i
-            class="fas fa-plus-circle"></i> Agregar correo</a>
-    {% endcomment%}
 </div>
 <div>
     <form action="{% url 'correos:correos' %}" method="GET" class="form-inline">
@@ -64,14 +61,10 @@
                 <td>{{correo.estado}}</td>
                 <td>{{correo.updated_at|date:'d/m/Y H:i:s'}}</td>
                 <td>
-                   {%comment%} {% if not correo.is_superuser %}
+                   {%comment%} 
                     <a class="btn btn-primary btn-sm text-light border border-dark m-1"
                         href="{% url 'correos:editar' pk=correo.id %}" correo="{{correo.id}}" id="edit"><i
                             class="fas fa-edit"></i></a>
-                    <a class="open-modal btn btn-danger btn-sm text-light border border-dark m-1" data-bs-toggle="modal"
-                        data-bs-target="#modal" data-popup-url="{% url 'correos:predestroy' pk=correo.id %}" href="">
-                        <i class="fas fa-trash"></i> </a>
-                    {% endif %}
                     {%endcomment%}
                 </td>
             </tr>
@@ -79,58 +72,10 @@
         </tbody>
     </table>
 </div>
-
-<div class="modal fade" id="modal" tabindex="-1" notempty='not' aria-labelledby="modalLabel" aria-hidden="true">
-    <div class="modal-dialog" notempty='not'>
-        <div class="modal-content" notempty='not'>
-            <div class="modal-header" notempty='not'>
-                <h5 class="modal-title " id="modalLabel" notempty='not'>¿Desea Eliminar al siguiente
-                    correo?:</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body" notempty='not'>
-
-            </div>
-            <div class="modal-footer" notempty='not'>
-                <button id="close" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button id="delete" type="button" class="btn btn-danger">Eliminar</button>
-            </div>
-        </div>
-    </div>
-</div>
 {% endblock contenido %}
 
 {% block javascript %}
 <script>
-    $(".dataTable").on('click', '.open-modal', function () {
-        $.ajax({
-            type: "GET",
-            url: $(this).attr("data-popup-url"),
-            dataType: "json",
-            success: function (data) {
-                Datos =
-                    "<p notempty='not'> ID: " + data['id'] +
-                    "</p> <p notempty='not'> Nombre: " +
-                    data['nombre'] + " " + data['apellido'] +
-                    "</p> <p notempty='not'> Email: " +
-                    data['email'] +
-                    "</p>";
-                $(".modal-body").append(Datos);
-                $("#delete").click(function () {
-                    window.location.href = "/correos/destroy/" + data["id"];
-                })
-            }
-        });
-    });
-    $("#close").on("click", function () {
-        $(".modal-body").empty();
-    })
-
-    $('body').click(function (e) {
-        if ($(e.target).attr('notempty') != "not")
-            $(".modal-body").empty();
-    });
-
    if ('{{fecha_ini}}' != 'None' && '{{fecha_ini}}' != '') {
         $('#fecha_ini').val('{{fecha_ini}}');
     } else {
