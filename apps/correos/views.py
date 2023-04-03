@@ -8,7 +8,6 @@ from django.views.generic.list import ListView
 from django.urls import reverse_lazy
 from .models import Correo, Usuario
 import datetime
-
 from .formularios import FormularioNuevoEjecutivo, FormularioNuevoEjecutivoUpdate
 
 # Create your views here.

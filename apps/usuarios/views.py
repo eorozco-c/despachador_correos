@@ -111,6 +111,9 @@ class ListarUsuarios(ListView):
             return super().get(*args, **kwargs)
         else:
             return redirect(reverse_lazy('master:menu'))
+        
+    def get_queryset(self):
+        return Usuario.objects.filter(is_superuser = True).values() | Usuario.objects.filter(is_staff = True).values()
 
 @method_decorator(login_required, name='dispatch')
 class CrearUsuario(CreateView):
