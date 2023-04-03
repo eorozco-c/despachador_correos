@@ -78,7 +78,7 @@ class ListarEjecutivos(ListView):
             return redirect(reverse_lazy('master:menu'))
     
     def get_queryset(self):
-        return Usuario.objects.filter(is_superuser = False).filter(is_staff = False)
+        return Usuario.objects.filter(is_superuser = False, is_staff = False)
 
 @method_decorator(login_required, name='dispatch')
 class CrearEjecutivo(CreateView):
