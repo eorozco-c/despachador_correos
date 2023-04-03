@@ -25,7 +25,6 @@
     <!-- Heading -->
     <div class="sidebar-heading">
         General
-        
     </div>
 
     <!-- Nav Item - Pages Collapse Menu -->
@@ -45,7 +44,6 @@
                     href="{% url 'configuraciones:casillas' %}">Casillas</a>
                <a id="nav-configuraciones" class="collapse-item font-weight-bold"
                     href="{% url 'configuraciones:crear_configuracion' %}">Configuraciones</a>
-               
             </div>
         </div>
     </li>
@@ -62,13 +60,15 @@
             <div class="bg-white py-2 font-weight-bold collapse-inner rounded">
                 <a id="nav-correos" class="collapse-item font-weight-bold"
                     href="{% url 'correos:correos' %}">Procesados</a>
+                <a id="nav-correos" class="collapse-item font-weight-bold"
+                    href="{% url 'correos:ejecutivos' %}">Ejecutivos</a>
             </div>
+            
         </div>
     </li>
 
     <!-- Sidebar Toggler (Sidebar) -->
     <hr class="sidebar-divider d-none d-md-block">
-
     <div class="text-center d-none d-md-inline">
         <button class="rounded-circle border-0" id="sidebarToggle"></button>
     </div>

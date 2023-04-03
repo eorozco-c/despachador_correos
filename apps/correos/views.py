@@ -6,10 +6,9 @@ from django.utils.decorators import method_decorator
 from django.views.generic.edit import CreateView, UpdateView
 from django.views.generic.list import ListView
 from django.urls import reverse_lazy
-from .models import Configuracion, Casilla,Correo
+from .models import Correo, Usuario
 import datetime
-
-
+from .formularios import FormularioNuevoEjecutivo, FormularioNuevoEjecutivoUpdate
 
 # Create your views here.
 @method_decorator(login_required, name='dispatch')
@@ -62,3 +61,98 @@ class ListarCorreos(ListView):
         else:
             return redirect(reverse_lazy('master:menu'))
     
+@method_decorator(login_required, name='dispatch')
+class ListarEjecutivos(ListView):
+    template_name = 'correos/ejecutivos_list.html'
+    model = Usuario
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['appname'] = "ejecutivos"
+        return context
+    
+    def get(self, *args, **kwargs):
+        if self.request.user.is_superuser:
+            return super().get(*args, **kwargs)
+        else:
+            return redirect(reverse_lazy('master:menu'))
+    
+    def get_queryset(self):
+        return Usuario.objects.filter(is_superuser = False, is_staff = False)
+
+@method_decorator(login_required, name='dispatch')
+class CrearEjecutivo(CreateView):
+    template_name = "correos/ejecutivos.html"
+    form_class = FormularioNuevoEjecutivo
+    model= Usuario
+    success_url = reverse_lazy("correos:ejecutivos")
+
+    def form_valid(self,form):
+        usuario = form.save(commit = False)
+        usuario.username = usuario.email
+        usuario.save()
+        return super().form_valid(form)
+
+    def get_context_data(self, **kwargs):
+        context = super(CrearEjecutivo, self).get_context_data(**kwargs)
+        context['legend'] = "Nuevo Ejecutivo"
+        context['appname'] = "ejecutivos"
+        return context
+    
+    def get(self, request):
+        if self.request.user.is_superuser:
+            return super().get(request)
+        return redirect("master:index")        
+
+@method_decorator(login_required, name='dispatch')
+class EditarEjecutivo(UpdateView):
+    template_name = "formularios/generico.html"
+    model = Usuario
+    form_class = FormularioNuevoEjecutivoUpdate
+    success_url = reverse_lazy("correos:ejecutivos")
+
+    def get_context_data(self, **kwargs):
+        context = super(EditarEjecutivo, self).get_context_data(**kwargs)
+        context['legend'] = "Editar Ejecutivo"
+        context['appname'] = "Ejecutivos"
+        return context
+    
+    def form_valid(self,form):
+        usuario = form.save(commit = False)
+        usuario_instance = Usuario.objects.get(id=self.kwargs['pk'])
+        if usuario.password != usuario_instance.password:
+            usuario.set_password(usuario.password)
+        usuario.save()
+        return super().form_valid(form)
+
+    def get(self, request,pk):
+        if self.request.user.is_superuser:
+            return super().get(request)
+        return redirect("master:index")
+
+@login_required(login_url="/")
+def predestroy(request,pk):
+    if request.method == "GET":
+        try:
+            usuario = Usuario.objects.get(id=pk)
+        except:
+            return redirect("usuarios:index")
+        context={
+            'id' : usuario.id,
+            'nombre': usuario.first_name,
+            'apellido' : usuario.last_name,
+            'email' : usuario.email,
+        }
+        return JsonResponse(context)
+    return redirect("correos:ejecutivos")
+
+@login_required(login_url="/")
+def destroy(request,pk):
+    if request.method == "GET":
+        if request.user.is_superuser:
+            try:
+                usuario = Usuario.objects.get(id=pk)
+            except:
+                return redirect("correos:ejecutivos")
+            usuario.delete()
+    return redirect("usuarios:index")    

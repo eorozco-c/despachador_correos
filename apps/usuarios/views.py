@@ -8,7 +8,7 @@ from django.contrib.auth.decorators import login_required
 from django.urls import reverse_lazy
 from django.contrib.auth import login
 from django.contrib import messages
-
+from django.db.models import Q
 
 from .models import Usuario
 from .formularios import FormularioRegistro, FormularioEditarRegistro, FormularioActualizarPass,FormularioNuevoUsuario, FormularioNuevoUsuarioUpdate
@@ -111,6 +111,9 @@ class ListarUsuarios(ListView):
             return super().get(*args, **kwargs)
         else:
             return redirect(reverse_lazy('master:menu'))
+        
+    def get_queryset(self):
+        return Usuario.objects.filter(Q(is_superuser = True) | Q(is_staff = True))
 
 @method_decorator(login_required, name='dispatch')
 class CrearUsuario(CreateView):
