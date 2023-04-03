@@ -12,7 +12,6 @@ class FormularioNuevoEjecutivo(forms.ModelForm):
         model = Usuario
         fields = ["first_name", "last_name","email"]
 
-
     def clean_first_name(self):
         first_name = self.cleaned_data["first_name"]
         validarLetras(first_name,"nombre")
@@ -31,7 +30,6 @@ class FormularioNuevoEjecutivo(forms.ModelForm):
         if obtenerUsuario(email=email):
             raise ValidationError("Correo ya existe")
         return email
-
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -70,4 +68,3 @@ class FormularioNuevoEjecutivoUpdate(forms.ModelForm):
             *self.fields,
            Submit('submit', 'Enviar', css_class='d-grid gap-2 col-2 mx-auto mt-2 ')
         )
-
