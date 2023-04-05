@@ -6,9 +6,9 @@ from django.utils.decorators import method_decorator
 from django.views.generic.edit import CreateView, UpdateView
 from django.views.generic.list import ListView
 from django.urls import reverse_lazy
-from .models import Correo, Usuario
+from .models import Correo, Usuario,Ejecutivo
 import datetime
-from .formularios import FormularioNuevoEjecutivo, FormularioNuevoEjecutivoUpdate
+from .formularios import FormularioNuevoEjecutivo, FormularioAsignarEjecutivo
 
 # Create your views here.
 @method_decorator(login_required, name='dispatch')
@@ -108,7 +108,7 @@ class CrearEjecutivo(CreateView):
 class EditarEjecutivo(UpdateView):
     template_name = "formularios/generico.html"
     model = Usuario
-    form_class = FormularioNuevoEjecutivoUpdate
+    form_class = FormularioNuevoEjecutivo
     success_url = reverse_lazy("correos:ejecutivos")
 
     def get_context_data(self, **kwargs):
@@ -156,3 +156,19 @@ def destroy(request,pk):
                 return redirect("correos:ejecutivos")
             usuario.delete()
     return redirect("usuarios:index")    
+
+@login_required(login_url="/")
+def asignar_agentes(request):
+    if request.method == "GET":
+        form = FormularioAsignarEjecutivo
+        asignados = Ejecutivo.objects.all()
+        context = {
+            'form' : form,
+            'object_list' : asignados,
+            'legend' : "Asignar Ejecutivos",
+            'appname' : "Asignación"
+        }
+        return render(request, "correos/ejecutivos_asignados.html", context)
+    elif request.method == "POST":
+        print(request.POST)
+    return redirect("correos:ejecutivos_asignados")
