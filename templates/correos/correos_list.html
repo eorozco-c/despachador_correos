@@ -26,7 +26,7 @@
                 <option value="2">Remitente</option>
                 <option value="3">Subject</option>
                 <option value="4">Estado</option>
-              </select>    
+            </select>
         </div>
         <div class="form-group mx-sm-3 mb-2">
             <label class="me-1">Valor: </label>
@@ -55,13 +55,13 @@
             {% for correo in object_list %}
             <tr>
                 <td>{{correo.id}}</td>
-                <td>{{correo.ejecutivo.id_usuario.email}}</td>
+                <td>{{correo.ejecutivo.usuario.email}}</td>
                 <td>{{correo.subject}}</td>
                 <td>{{correo.desde}}</td>
                 <td>{{correo.estado}}</td>
                 <td>{{correo.updated_at|date:'d/m/Y H:i:s'}}</td>
                 <td>
-                   {%comment%} 
+                    {%comment%}
                     <a class="btn btn-primary btn-sm text-light border border-dark m-1"
                         href="{% url 'correos:editar' pk=correo.id %}" correo="{{correo.id}}" id="edit"><i
                             class="fas fa-edit"></i></a>
@@ -76,7 +76,7 @@
 
 {% block javascript %}
 <script>
-   if ('{{fecha_ini}}' != 'None' && '{{fecha_ini}}' != '') {
+    if ('{{fecha_ini}}' != 'None' && '{{fecha_ini}}' != '') {
         $('#fecha_ini').val('{{fecha_ini}}');
     } else {
         var today = new Date();

@@ -105,8 +105,8 @@ class CrearConfiguracion(CreateView):
         return context
 
     def get(self, *args, **kwargs):
-        if Configuracion.objects.count != 0:
-            ultimo_id = Configuracion.objects.last().id
+        if Configuracion.objects.count() != 0:
+            ultimo_id = Configuracion.objects.last().id 
             return redirect("configuraciones:editar_configuracion",pk = ultimo_id)
         if self.request.user.is_superuser:
             return super().get(*args, **kwargs)

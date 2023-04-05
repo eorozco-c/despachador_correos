@@ -3,6 +3,7 @@ from django.contrib.auth.decorators import login_required
 
 from apps.usuarios.models import Usuario
 from apps.configuraciones.models import TipoServicio
+from apps.correos.models import Estado
 
 # from apps.usuarios.models import Usuario
 
@@ -15,6 +16,11 @@ def index(request):
                 TipoServicio(nombre="Microsoft"),
                 TipoServicio(nombre="Google"),
                 TipoServicio(nombre="Otro"),
+            ])
+        if Estado.objects.count() == 0:
+            Estado.objects.bulk_create([
+                Estado(nombre="En Proceso"),
+                Estado(nombre="Despachado"),
             ])
         if Usuario.objects.count() == 0:
             return redirect("usuarios:registrar")

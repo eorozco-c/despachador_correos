@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="{% static 'master/css/style.css' %}">
     <link rel="stylesheet" href="{% block styles %}{% endblock styles %}">
     <!-- Fin  -->
-    <title class="edit_appname">Corus | {{appname|capfirst}}</title>
+    <title class="edit_appname">{{appname|capfirst}}</title>
 </head>
 
 <body id="page-top">
@@ -50,7 +50,8 @@
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
-                    {% block contenido %}{% endblock contenido %}
+                    {% block contenido %}
+                    {% endblock contenido %}
                 </div>
                 <!-- /.container-fluid -->
             </div>

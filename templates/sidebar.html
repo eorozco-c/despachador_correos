@@ -42,12 +42,12 @@
                     href="{% url 'usuarios:index' %}">Usuarios</a>
                 <a id="nav-casillas" class="collapse-item font-weight-bold"
                     href="{% url 'configuraciones:casillas' %}">Casillas</a>
-               <a id="nav-configuraciones" class="collapse-item font-weight-bold"
+                <a id="nav-configuraciones" class="collapse-item font-weight-bold"
                     href="{% url 'configuraciones:crear_configuracion' %}">Configuraciones</a>
             </div>
         </div>
     </li>
-    
+
     {% endif %}
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-bs-toggle="collapse"
@@ -58,12 +58,15 @@
         <div id="collapseCorreo" class="accordion-collapse collapse" aria-labelledby="headingOne"
             data-bs-parent="#accordionSidebar">
             <div class="bg-white py-2 font-weight-bold collapse-inner rounded">
-                <a id="nav-correos" class="collapse-item font-weight-bold"
+                <a id="nav-correos_procesados" class="collapse-item font-weight-bold"
                     href="{% url 'correos:correos' %}">Procesados</a>
-                <a id="nav-correos" class="collapse-item font-weight-bold"
+                <a id="nav-ejecutivos" class="collapse-item font-weight-bold"
                     href="{% url 'correos:ejecutivos' %}">Ejecutivos</a>
+                <a id="nav-asignacion_ejecutivos" class="collapse-item font-weight-bold"
+                    href="{% url 'correos:ejecutivos_asignados' %}">Asignar Ejecutivos</a>
+
             </div>
-            
+
         </div>
     </li>
 
