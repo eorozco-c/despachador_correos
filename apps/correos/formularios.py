@@ -44,7 +44,7 @@ class FormularioNuevoEjecutivo(forms.ModelForm):
 class FormularioAsignarEjecutivo(forms.ModelForm):
 #multi select choices from model Usuario
     ejecutivos = forms.ModelMultipleChoiceField(
-        queryset=Usuario.objects.all(),
+        queryset=Usuario.objects.filter(is_staff=False, is_superuser=False, asignado=False),
         widget=forms.SelectMultiple(attrs={'class': 'form-control',"size":"10"}),
         required=False
     )
@@ -52,17 +52,19 @@ class FormularioAsignarEjecutivo(forms.ModelForm):
     class Meta:
         model = Usuario
         fields = ["ejecutivos"]
-
-    def _init_(self, *args, **kwargs):
-        super()._init_(*args, **kwargs)
+        
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
         self.helper = FormHelper()
         self.helper.layout = Layout(
             Row(
-                Column("ejecutivos", css_class='form-group col-md-6 mb-0'),
+                Column("ejecutivos", css_class='form-group col-md-8 mb-0'),
                 Column(Submit('submit', 'Asignar', css_class='btn btn-block btn-warning'),
-                css_class='align-self-center mb-4 col-md-4'),  
+                css_class='align-self-center col-md-4'),
                 css_class='row-fluid'
-            ), 
+            )
         )
+
+
 
 

@@ -18,7 +18,7 @@ class ListarCorreos(ListView):
 
     def get_context_data(self, **kwargs):
         context = super(ListarCorreos, self).get_context_data(**kwargs)
-        context['appname'] = "correos"
+        context['appname'] = "correos_procesados"
         fecha_ini = self.request.GET.get('fecha_ini')
         fecha_fin = self.request.GET.get('fecha_fin')
         tipo= self.request.GET.get('tipo')
@@ -41,7 +41,7 @@ class ListarCorreos(ListView):
         valor=self.request.GET.get('valor')
         #consultar por Ejecutivo
         if tipo == "1":
-            return Correo.objects.filter(created_at__range = (fecha_ini,fecha_fin), ejecutivo__id_usuario__email__icontains = valor )
+            return Correo.objects.filter(created_at__range = (fecha_ini,fecha_fin), ejecutivo__usuario__email__icontains = valor )
         #consultar por Remitente
         if tipo == "2":
             return Correo.objects.filter(created_at__range = (fecha_ini,fecha_fin), desde__icontains = valor )
@@ -75,7 +75,7 @@ class ListarEjecutivos(ListView):
         if self.request.user.is_superuser:
             return super().get(*args, **kwargs)
         else:
-            return redirect(reverse_lazy('master:menu'))
+            return redirect('master:menu')
     
     def get_queryset(self):
         return Usuario.objects.filter(is_superuser = False, is_staff = False)
@@ -119,9 +119,7 @@ class EditarEjecutivo(UpdateView):
     
     def form_valid(self,form):
         usuario = form.save(commit = False)
-        usuario_instance = Usuario.objects.get(id=self.kwargs['pk'])
-        if usuario.password != usuario_instance.password:
-            usuario.set_password(usuario.password)
+        usuario.username = usuario.email
         usuario.save()
         return super().form_valid(form)
 
@@ -160,15 +158,39 @@ def destroy(request,pk):
 @login_required(login_url="/")
 def asignar_agentes(request):
     if request.method == "GET":
-        form = FormularioAsignarEjecutivo
+        form = FormularioAsignarEjecutivo()
         asignados = Ejecutivo.objects.all()
         context = {
             'form' : form,
             'object_list' : asignados,
             'legend' : "Asignar Ejecutivos",
-            'appname' : "Asignación"
+            'appname' : "asignacion_ejecutivos",
         }
         return render(request, "correos/ejecutivos_asignados.html", context)
     elif request.method == "POST":
-        print(request.POST)
+        if "ejecutivos" in request.POST:
+            ejecutivos = request.POST.getlist('ejecutivos')
+            for ejecutivo in ejecutivos:
+                Ejecutivo.objects.create(usuario_id = ejecutivo)
+                usuario = Usuario.objects.get(id = ejecutivo)
+                usuario.asignado = True
+                usuario.save()
+            messages.success(request, "Ejecutivos asignados correctamente",extra_tags="success")
+        else:
+            messages.success(request, "No se ha seleccionado ningún ejecutivo",extra_tags="danger")
+    return redirect("correos:ejecutivos_asignados")
+
+@login_required(login_url="/")
+def desasignar_ejecutivo(request,pk):
+    if request.method == "GET":
+        try:
+            ejecutivo = Ejecutivo.objects.get(usuario_id = pk)
+        except:
+            messages.success(request, "Ejecutivo no encontrado",extra_tags="danger")
+            return redirect("correos:ejecutivos_asignados")
+        ejecutivo.delete()
+        usuario = Usuario.objects.get(id = ejecutivo.usuario.id)
+        usuario.asignado = False
+        usuario.save()
+        messages.success(request, "Ejecutivo desasignado correctamente",extra_tags="success")
     return redirect("correos:ejecutivos_asignados")

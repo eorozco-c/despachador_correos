@@ -4,6 +4,7 @@ from django.contrib.auth.models import AbstractUser
 # Create your models here.
 class Usuario(AbstractUser):
     email = models.EmailField(max_length=255, unique=True)
+    asignado = models.BooleanField(default=False)
     updated_at = models.DateTimeField(auto_now=True)
 
     def save(self, *args, **kwargs):

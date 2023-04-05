@@ -12,5 +12,6 @@ urlpatterns = [
     path('predestroy/<int:pk>',views.predestroy,name='predestroy'),
     path('destroy/<int:pk>',views.destroy,name='destroy'),
     path('ejecutivos_asignados', views.asignar_agentes, name="ejecutivos_asignados"),
+    path('desasignar_ejecutivo/<int:pk>', views.desasignar_ejecutivo, name="desasignar_ejecutivo"),
    
 ]

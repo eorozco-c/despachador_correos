@@ -15,7 +15,7 @@ class Estado(models.Model):
         
 class Ejecutivo(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
-    id_usuario=models.ForeignKey(Usuario, on_delete=models.PROTECT)
+    usuario=models.ForeignKey(Usuario, on_delete=models.PROTECT)
     
 
 class Correo(models.Model):
