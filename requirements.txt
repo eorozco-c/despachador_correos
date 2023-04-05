@@ -1,0 +1,5 @@
+Django
+django-crispy-forms==1.14.0
+mysqlclient
+python-decouple
+whitenoise
