@@ -93,10 +93,10 @@ WSGI_APPLICATION = 'despachador_correos.wsgi.application'
 DATABASES = {
      "default": {
          "ENGINE": "mssql",
-         "NAME": "master",
-         "USER": "sa",
-         "PASSWORD": "T3l3ctr0n1c",
-         "HOST": "WIN-C7R0H94VL8M",
+         "NAME": config('DATABASE'),
+         "USER": config('DBUSER'),
+         "PASSWORD": config('DBPASS'),
+         "HOST": config('DBSERVER'),
          "PORT": "",
          "OPTIONS": {"driver": "ODBC Driver 17 for SQL Server", 
          },
