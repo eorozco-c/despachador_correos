@@ -1,5 +1,6 @@
 Django
 django-crispy-forms==1.14.0
-mysqlclient
+mssql-django
 python-decouple
 whitenoise
+O365
