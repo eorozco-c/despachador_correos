@@ -83,25 +83,25 @@ WSGI_APPLICATION = 'despachador_correos.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
-
 DATABASES = {
-     "default": {
-         "ENGINE": "mssql",
-         "NAME": config('DATABASE'),
-         "USER": config('DBUSER'),
-         "PASSWORD": config('DBPASS'),
-         "HOST": config('DBSERVER'),
-         "PORT": "",
-         "OPTIONS": {"driver": "ODBC Driver 17 for SQL Server", 
-         },
-     },
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
 }
+
+# DATABASES = {
+#      "default": {
+#          "ENGINE": "mssql",
+#          "NAME": config('DATABASE'),
+#          "USER": config('DBUSER'),
+#          "PASSWORD": config('DBPASS'),
+#          "HOST": config('DBSERVER'),
+#          "PORT": "",
+#          "OPTIONS": {"driver": "ODBC Driver 17 for SQL Server", 
+#          },
+#      },
+# }
 
 
 

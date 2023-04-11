@@ -25,17 +25,20 @@
 
 <body class="mx-auto body_login">
     <div class="container">
-        <div class="row justify-content-end">
-            <div class="col-xl-5 col-lg-6 col-md-10 centrar" style="left: 3%; padding-top: 5%; right:3%;  ">
+        <div class="row justify-content-center">
+            <div class="col-xl-5 col-lg-6 col-md-10 centrar">
                 <div class="card-transparent o-hidden border-10 shadow-lg my-0 ">
                     <div class="card-body p-0">
                         <div class="row ">
                             <div class="col-lg-12 ">
-                                <div class="p-5">
-                                    <div class="text-center my-3 d-md-block d-lg-none">
+                                <div class="p-1">
+                                    <div class="text-center my-3 d-md-block">
+                                        <img src="{% static 'master/img/logo_chubb.webp' %}" alt="logo"
+                                            class="img-fluid mt-2 p-3">
+                                        <br>
                                         <a class="nombre_app" href="/">DESPACHADOR DE CORREOS</a>
                                         <a href="/"> </a>
-                                       
+
                                     </div>
                                     {% block contenido %}
                                     {% endblock contenido %}
@@ -47,11 +50,8 @@
             </div>
         </div>
     </div>
-    <div class="d-none d-lg-block" style="position:absolute; top:20%; left:10%; ">
-        <a class="nombre_app" href="/">DESPACHADOR DE CORREOS</a>
-    </div>
-    <div class="d-none d-lg-block mb-5" style="position:absolute; top:30%; left:10%; ">
-        <h1 style="color:#fff;font-weight: 100; font-size: 30px;" class="mt-5 pt-5">Tecnología que nos conecta</h1>
+    <div class="text-center">
+        <h1 style="color:#fff;font-weight: 100; font-size: 30px;" class="mt-1">Tecnología que nos conecta</h1>
         <center>
             <h1 style="color:#fff;font-weight: 700;font-size: 18px;" class="mt-3 pt-5">Desarollado por<BR></h1>
             <a href="https://www.telectronic.com" target="_blank"><img class="pt-0"
