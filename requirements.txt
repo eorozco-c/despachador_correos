@@ -4,4 +4,4 @@ mssql-django
 python-decouple
 whitenoise
 O365
-pyinstaller #pyinstaller --onefile --icon C:\\telectronic\\daemon\\logo.ico .\servicio_correos.py
+pyinstaller #pyinstaller --onefile --icon C:\\telectronic\\despachador_correos\\daemon\\logo.ico .\servicio_leer_correo.py
