@@ -37,6 +37,10 @@ class ListarCorreos(ListView):
     def get_queryset(self):
         fecha_ini = self.request.GET.get('fecha_ini')
         fecha_fin = self.request.GET.get('fecha_fin')
+        if not fecha_ini:
+            fecha_ini = datetime.datetime.now().strftime("%Y-%m-%d 00:00")
+        if not fecha_fin:
+            fecha_fin = datetime.datetime.now().strftime("%Y-%m-%d 23:59")
         tipo= self.request.GET.get('tipo')
         valor=self.request.GET.get('valor')
         #consultar por Ejecutivo

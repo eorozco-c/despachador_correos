@@ -61,21 +61,62 @@
                 <td>{{correo.estado}}</td>
                 <td>{{correo.updated_at|date:'d/m/Y H:i:s'}}</td>
                 <td>
-                    {%comment%}
-                    <a class="btn btn-primary btn-sm text-light border border-dark m-1"
-                        href="{% url 'correos:editar' pk=correo.id %}" correo="{{correo.id}}" id="edit"><i
-                            class="fas fa-edit"></i></a>
-                    {%endcomment%}
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#myModal{{correo.id}}">Ver
+                        correo</button>
                 </td>
             </tr>
+
+            <!-- Modal modal_correo -->
+            <div class="modal fade" id="myModal{{correo.id}}" tabindex="-1" body-correo="{{correo.body}}"
+                id-correo="{{correo.id}}" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Asunto: {{correo.subject}}</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h6>Remitente: {{correo.desde}}</h6>
+                            <div id="email_body_{{correo.id}}" class="p-3">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             {% endfor %}
         </tbody>
     </table>
 </div>
+
+
 {% endblock contenido %}
 
 {% block javascript %}
 <script>
+    //when open modal myModal{{correo.id}} parse email body to html
+
+    $('.modal').on('show.bs.modal', function (event) {
+        console.log('abriendo modal');
+        body = this.getAttribute('body-correo');
+        id_correo = this.getAttribute('id-correo');
+        var modal = $(this)
+        modal.find('.modal-body #email_body_' + id_correo).html(body);
+    })
+
+    //when close modal remove email body
+    $('.modal').on('hidden.bs.modal', function (event) {
+        console.log('cerrando modal');
+        id_correo = this.getAttribute('id-correo');
+        var modal = $(this)
+        modal.find('.modal-body #email_body_' + id_correo).html('');
+    })
+
+
     if ('{{fecha_ini}}' != 'None' && '{{fecha_ini}}' != '') {
         $('#fecha_ini').val('{{fecha_ini}}');
     } else {

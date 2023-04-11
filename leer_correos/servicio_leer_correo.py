@@ -1,7 +1,28 @@
 from decouple import config
 from O365 import Account
+from datetime import datetime
 import pyodbc
 import time
+import logging
+import os
+import zoneinfo
+
+#obtener la hora actual
+STG = zoneinfo.ZoneInfo("America/Santiago")
+
+datetime_now = datetime.now(STG)
+#validar si existe la carpeta logs, si no existe crearla
+if not os.path.exists('./logs'):
+    os.makedirs('./logs')
+
+#configurar el log
+logging.basicConfig(filename=f"./logs/servicio_correo_{datetime_now.strftime('%Y-%m-%d_%H-%M-%S')}.log",
+                filemode='a',
+                format='[%(asctime)s] | %(levelname)s | %(message)s',
+                datefmt='%d-%m-%Y %H:%M:%S',
+                level=logging.INFO)
+logging.info('Iniciando servicio de correo')
+print('Iniciando servicio de correo')
 
 def main(cursor):
     #read the last mail not read from the user and only from,subject and body
@@ -13,16 +34,18 @@ def main(cursor):
         row = cursor.fetchone()
         correo = row[0]
     except:
+        logging.info('No hay correo configurado en la tabla configuraciones_casilla')
         print('No hay correo configurado en la tabla configuraciones_casilla')
         exit()
-
-    cursor.execute("SELECT id_usuario, api_key, id_tenant FROM dbo.configuraciones_configuracion ORDER BY id DESC")
+    cursor.execute("SELECT id_usuario, api_key, id_tenant, id FROM dbo.configuraciones_configuracion ORDER BY id DESC")
     try:
         row = cursor.fetchone()
         id_usuario = row[0]
         api_key = row[1]
         id_tenant = row[2]
+        id_conf = row[3]
     except:
+        logging.info('No hay configuracion en la tabla configuraciones_configuracion')
         print('No hay configuracion en la tabla configuraciones_configuracion')
         exit()
 
@@ -31,7 +54,6 @@ def main(cursor):
     account = Account(credentials, auth_flow_type='credentials', tenant_id=id_tenant)
 
     if account.authenticate(scopes=scope):
-        # print('Authenticated!')
         mailbox = account.mailbox(correo)
         messages = mailbox.get_messages(limit=1, query='isRead eq false')
         for message in messages:
@@ -41,20 +63,23 @@ def main(cursor):
                 row = cursor.fetchone()
                 id = row[0]
                 ejecutivo = row[1]
-                # print(ejecutivo)
             except:
-                print('No ejecutivos asociados')
-                exit()
+                logging.info('No hay ejecutivos asociados')
+                print('No hay ejecutivos asociados')
+                break
             cursor.execute(f"UPDATE dbo.correos_ejecutivo SET updated_at = GETDATE() WHERE id = {id}")
-            conn.commit()
             to_forward = message.forward()
             to_forward.to.add(ejecutivo)
             to_forward.body = f'Enviado por: {message.sender}\n\n\n'
             to_forward.send()
+            logging.info(f"Se deriva correo a ejecutivo: {ejecutivo}")
+            print(f"Se deriva correo a ejecutivo: {ejecutivo}")
             #update the updated_at field
+            cursor.execute(f"INSERT INTO dbo.correos_correo (subject,body,desde,created_at,updated_at,configuracion_id,estado_id,ejecutivo_id) VALUES ('{message.subject}','{message.body}','{message.sender}',GETDATE(),GETDATE(),{id_conf},2,{id})")
+            conn.commit()
     else:
-        print('Failed to authenticate!')
-
+        logging.error('Fallo en la autenticacion, favor validar expiracion de credenciales')
+        print('Fallo en la autenticacion, favor validar expiracion de credenciales')
 
 while True:
     try:
@@ -66,16 +91,18 @@ while True:
             rf"UID={config('DBUSER')};"
             rf"PWD={config('DBPASS')};"
         )
-
         # connect to db
         conn = pyodbc.connect(conn_str)
-
         cursor = conn.cursor()
         main(cursor)
         time.sleep(5)
-
+    except KeyboardInterrupt:
+        logging.info('Servicio de correo finalizado')
+        print('Servicio de correo finalizado')
+        break
     except Exception as e:
-        print(e)
+        logging.error(f"Ocurrio un error: {e}")
+        print(f"Ocurrio un error: {e}")
         time.sleep(5)
     finally:
         cursor.close()
