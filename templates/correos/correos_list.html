@@ -55,7 +55,7 @@
             {% for correo in object_list %}
             <tr>
                 <td>{{correo.id}}</td>
-                <td>{{correo.ejecutivo.usuario.email}}</td>
+                <td>{{correo.ejecutivo.email}}</td>
                 <td>{{correo.subject}}</td>
                 <td>{{correo.desde}}</td>
                 <td>{{correo.estado}}</td>
