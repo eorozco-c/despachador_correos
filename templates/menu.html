@@ -3,14 +3,14 @@
 {% block contenido%}
 <!-- Page Heading -->
 <div class="row">
-    <div class="col-xl-3 col-md-6 mb-4" id="llamadas_ingresadas">
+    <div class="col-xl-6 col-md-6 mb-4" id="llamadas_ingresadas">
         <div class="card border-left-primary shadow h-100 py-2">
             <div class="card-body">
                 <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                        <div class="text-xs font-weight-bold text-primary mb-1">CANTIDAD USUARIOS</div>
+                        <div class="text-xs font-weight-bold text-primary mb-1">EJECUTIVOS ASIGNADOS</div>
                         <div class="h5 mb-0 font-weight-bold text-gray-800">
-                            {{usuarios}}
+                            {{ejecutivos}}
                         </div>
                     </div>
                     <div class="col-auto">
@@ -22,14 +22,14 @@
         </div>
     </div>
 
-    <div class="col-xl-3 col-md-6 mb-4" id="llamadas_contestadas">
+    <div class="col-xl-6 col-md-6 mb-4" id="llamadas_contestadas">
         <div class="card border-left-success shadow h-100 py-2">
             <div class="card-body">
                 <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                        <div class="text-xs font-weight-bold text-primary mb-1">CANTIDAD EXTENSIONES</div>
+                        <div class="text-xs font-weight-bold text-primary mb-1">CORREOS DESPACHADOS HOY</div>
                         <div class="h5 mb-0 font-weight-bold text-gray-800">
-                            {{anexos}}
+                            {{correos_despachados}}
                         </div>
                     </div>
                     <div class="col-auto">
@@ -40,81 +40,17 @@
         </div>
     </div>
 
-    <div class="col-xl-3 col-md-6 mb-4" id="llamadas_abandonadas">
-        <div class="card border-left-info shadow h-100 py-2">
-            <div class="card-body">
-                <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                        <div class="text-xs font-weight-bold text-primary  mb-1">CANTIDAD AGENTES</div>
-                        <div class="h5 mb-0 font-weight-bold text-gray-800">
-                            {{agentes}}
-                        </div>
-                    </div>
-                    <div class="col-auto">
-
-                        <i class="fas fa-users fa-2x text-gray-300"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-xl-3 col-md-6 mb-4" id="llamadas_outbound">
-        <div class="card border-left-warning shadow h-100 py-2">
-            <div class="card-body">
-                <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                        <div class="text-xs font-weight-bold text-primary  mb-1">CANTIDAD COLAS
-                        </div>
-                        <div class="h5 mb-0 font-weight-bold text-gray-800">
-                            {{colas}}
-
-                        </div>
-                    </div>
-                    <div class="col-auto">
-
-                        <i class="far fa-bookmark fa-2x text-gray-300"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-xl-6 col-lg-6">
-        <div class="card shadow mb-4">
-            <!-- Card Header - Dropdown -->
-            <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">Memoria RAM</h6>
-            </div>
-            <!-- Card Body -->
-            <div class="card-body">
-                <div id='chartmemoriaram' style="width: 100%; height: 180px;"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-xl-6 col-lg-6">
-        <div class="card shadow mb-4">
-            <!-- Card Header - Dropdown -->
-            <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">HDD</h6>
-            </div>
-            <!-- Card Body -->
-            <div class="card-body">
-                <div id="charthdd" style="width: 100%; height: 180px;"></div>
-            </div>
-        </div>
-    </div>
-
     <div class="col-xl-12 col-lg-12">
         <div class="card shadow mb-4">
             <!-- Card Header - Dropdown -->
             <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">CPU</h6>
+                <h6 class="m-0 font-weight-bold text-primary">Chart</h6>
             </div>
             <!-- Card Body -->
             <div class="card-body">
-                <div id="chartCpu" style="width: 100%; height: 300px;"></div>
+                <div style="width: 100%;">
+                    <canvas id="chartFechas"></canvas>
+                </div>
             </div>
         </div>
     </div>
@@ -124,259 +60,29 @@
 {% block javascript %}
 
 <script>
-    var data = [{
-            valor: "{{ramUsage}}",
-            nombre: "Usado"
-        },
-        {
-            valor: "{{ramAvailable}}",
-            nombre: "Restante"
-        }
-    ];
-
     $(document).ready(function () {
 
-        var dataAdapter = new $.jqx.dataAdapter(data, {
-            async: false,
-            autoBind: true,
-            loadError: function (xhr, status, error) {
-                alert('Error loading "' + source.url + '" : ' + error);
-            }
-        });
-        $.jqx._jqxChart.prototype.colorSchemes.push({
-            name: 'myScheme',
-            colors: ['#FF5733', '#2980B9']
-        });
-        // prepare jqxChart settings
-        var settings = {
-            title: "",
-            description: "",
-            enableAnimations: true,
-            showLegend: true,
-            showBorderLine: true,
-            legendLayout: {
-                left: 050,
-                top: 100,
-                width: 100,
-                height: 80,
-                flow: 'vertical'
-            },
-            padding: {
-                left: 0,
-                top: 0,
-                right: 0,
-                bottom: 0
-            },
-            titlePadding: {
-                left: 0,
-                top: 0,
-                right: 0,
-                bottom: 0
-            },
-            source: dataAdapter,
-            colorScheme: 'myScheme',
-            seriesGroups: [{
-                type: 'pie',
-                showLabels: true,
-                series: [{
-                    dataField: 'valor',
-                    displayText: 'nombre',
-                    labelRadius: 100,
-                    initialAngle: 10,
-                    radius: 80,
-                    centerOffset: 0,
-                    formatFunction: function (value) {
-                        if (isNaN(value))
-                            return value;
-                        return parseInt(value) + '%';
-                    },
+        var ctx = document.getElementById('chartFechas').getContext('2d');
+        var datos_correos = '{{registros_por_dia|safe}}';
+
+        var chart = new Chart(ctx, {
+            // The type of chart we want to create
+            type: 'bar',
+            // use datos_correos
+            data: {
+                labels: JSON.parse(datos_correos).map(function (e) {
+                    return e.dia;
+                }),
+                datasets: [{
+                    label: 'Correos despachados por dia',
+                    backgroundColor: 'rgb(255, 99, 132)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: JSON.parse(datos_correos).map(function (e) {
+                        return e.cantidad;
+                    }),
                 }]
-            }]
-        };
-        // setup the chart
-        $('#chartmemoriaram').jqxChart(settings);
-    });
-
-
-
-
-    var data2 = [{
-            valor: "{{hddUsage}}",
-            nombre: "Usado"
-        },
-        {
-            valor: "{{hddAvailable}}",
-            nombre: "Restante"
-        }
-
-    ];
-    $(document).ready(function () {
-
-        var dataAdapter = new $.jqx.dataAdapter(data2, {
-            async: false,
-            autoBind: true,
-            loadError: function (xhr, status, error) {
-                alert('Error loading "' + source.url + '" : ' + error);
-            }
+            },
         });
-        $.jqx._jqxChart.prototype.colorSchemes.push({
-            name: 'myScheme2',
-            colors: ['#FF5733', '#2980B9']
-        });
-        // prepare jqxChart settings
-        var settings2 = {
-            title: "",
-            description: "",
-            enableAnimations: true,
-            showLegend: true,
-            showBorderLine: true,
-            legendLayout: {
-                left: 050,
-                top: 100,
-                width: 100,
-                height: 80,
-                flow: 'vertical'
-            },
-            padding: {
-                left: 0,
-                top: 0,
-                right: 0,
-                bottom: 0
-            },
-            titlePadding: {
-                left: 0,
-                top: 0,
-                right: 0,
-                bottom: 0
-            },
-            source: dataAdapter,
-            colorScheme: 'myScheme2',
-            seriesGroups: [{
-                type: 'pie',
-                showLabels: true,
-                series: [{
-                    dataField: 'valor',
-                    displayText: 'nombre',
-                    labelRadius: 100,
-                    initialAngle: 10,
-                    radius: 80,
-                    centerOffset: 0,
-                    formatFunction: function (value) {
-                        if (isNaN(value))
-                            return value;
-                        return parseFloat(value) + 'G';
-                    },
-                }]
-            }]
-        };
-        // setup the chart
-        $('#charthdd').jqxChart(settings2);
-    });
-
-
-    $(document).ready(function () {
-
-        var data = [];
-        var max = 100;
-        var timestamp = new Date();
-        for (var i = 0; i < 60; i++) {
-            timestamp.setMilliseconds(0);
-            timestamp.setSeconds(timestamp.getSeconds() - 1);
-            data.push({
-                timestamp: new Date(timestamp.valueOf()),
-                value: Math.max(100, (Math.random() * 1000) % max)
-            });
-        }
-        data = data.reverse();
-        var settings = {
-            title: "Uso % CPU en tiempo real",
-            description: " ",
-            enableAnimations: false,
-            animationDuration: 1000,
-            enableAxisTextAnimation: true,
-            showLegend: true,
-
-            source: data,
-            xAxis: {
-                dataField: 'timestamp',
-                type: 'date',
-                baseUnit: 'second',
-                //unitInterval: 5,
-                formatFunction: function (value) {
-                    return $.jqx.dataFormat.formatdate(value, "hh:mm:ss", 'en-us');
-                },
-                gridLines: {
-                    step: 2
-                },
-                valuesOnTicks: true,
-                labels: {
-                    angle: -45,
-                    offset: {
-                        x: -17,
-                        y: 0
-                    }
-                }
-            },
-            colorScheme: 'scheme03',
-            seriesGroups: [{
-                type: 'line',
-                columnsGapPercent: 50,
-                alignEndPointsWithIntervals: true,
-                valueAxis: {
-                    //minValue: 0,
-                    //maxValue: 1000,
-                    title: {
-                        text: 'Porcentaje'
-                    }
-                },
-                series: [{
-                    dataField: 'value',
-                    displayText: 'Usabilidad',
-                    opacity: 1,
-                    lineWidth: 2,
-                    symbolType: 'circle',
-                    fillColorSymbolSelected: 'white',
-                    symbolSize: 4
-                }]
-            }]
-        };
-        // create the chart
-        $('#chartCpu').jqxChart(settings);
-
-
-        //if https use wss else use ws
-        var ws_scheme = window.location.protocol == "https:" ? "wss" : "ws";
-        //open ws 
-        var ws = new WebSocket(ws_scheme + "://" + window.location.host + "/ws/cpu/");
-
-        //on message receive
-        ws.onmessage = function (event) {
-            var output = JSON.parse(event.data);
-            var value1 = output["cpu"];
-            var max = 100;
-            if (data.length >= 60)
-                data.splice(0, 1);
-            var timestamp = new Date();
-            timestamp.setSeconds(timestamp.getSeconds());
-            timestamp.setMilliseconds(0);
-            data.push({
-                timestamp: timestamp,
-                value: value1
-            });
-            $('#chartCpu').jqxChart('update');
-
-        };
-
-        ws.onclose = function () {
-            console.log('WebSocket cerrado');
-            //if websocket is close, wait 5 seconds and reload page
-            setTimeout(function () {
-                location.reload();
-            }, 2000);
-        };
-        ws.onerror = function (error) {
-            console.log('WebSocket error: ' + error);
-        };
     });
 </script>
 
