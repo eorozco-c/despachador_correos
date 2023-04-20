@@ -26,12 +26,12 @@ class FormularioNuevoEjecutivo(forms.ModelForm):
         validarLongitud(last_name,"apellido",2,15)
         return last_name
     
-    def clean_email(self):
-        email = self.cleaned_data["email"]
-        validarEmail(email)
-        if obtenerUsuario(email=email):
-            raise ValidationError("Correo ya existe")
-        return email
+    # def clean_email(self):
+    #     email = self.cleaned_data["email"]
+    #     validarEmail(email)
+    #     if obtenerUsuario(email=email):
+    #         raise ValidationError("Correo ya existe")
+    #     return email
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)

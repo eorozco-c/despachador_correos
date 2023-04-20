@@ -60,7 +60,7 @@ class ListarCorreos(ListView):
             return Correo.objects.filter(created_at__range = (fecha_ini,fecha_fin))
         
     def get(self, *args, **kwargs):
-        if self.request.user.is_superuser:
+        if self.request.user.is_superuser or self.request.user.is_staff:
             return super().get(*args, **kwargs)
         else:
             return redirect(reverse_lazy('master:menu'))
@@ -76,7 +76,7 @@ class ListarEjecutivos(ListView):
         return context
     
     def get(self, *args, **kwargs):
-        if self.request.user.is_superuser:
+        if self.request.user.is_superuser or self.request.user.is_staff:
             return super().get(*args, **kwargs)
         else:
             return redirect('master:menu')
@@ -104,7 +104,7 @@ class CrearEjecutivo(CreateView):
         return context
     
     def get(self, request):
-        if self.request.user.is_superuser:
+        if self.request.user.is_superuser or self.request.user.is_staff:
             return super().get(request)
         return redirect("master:index")        
 
@@ -128,7 +128,7 @@ class EditarEjecutivo(UpdateView):
         return super().form_valid(form)
 
     def get(self, request,pk):
-        if self.request.user.is_superuser:
+        if self.request.user.is_superuser or self.request.user.is_staff:
             return super().get(request)
         return redirect("master:index")
 

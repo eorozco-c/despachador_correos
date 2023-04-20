@@ -23,6 +23,7 @@ class UserLoginForm(AuthenticationForm):
         }),
         label="")
     
+    
 class FormularioRegistro(forms.ModelForm):
     confirmarPassword = forms.CharField(max_length=255, label="Confirmar Password")
     confirmarPassword.widget = forms.PasswordInput()
@@ -222,3 +223,4 @@ class FormularioNuevoUsuarioUpdate(forms.ModelForm):
             *self.fields,
            Submit('submit', 'Enviar', css_class='d-grid gap-2 col-2 mx-auto mt-2 ')
         )
+
