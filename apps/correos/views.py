@@ -43,24 +43,25 @@ class ListarCorreos(ListView):
             fecha_fin = datetime.datetime.now().strftime("%Y-%m-%d 23:59")
         tipo= self.request.GET.get('tipo')
         valor=self.request.GET.get('valor')
-        #consultar por Ejecutivo
-        if tipo == "1":
-            return Correo.objects.filter(created_at__range = (fecha_ini,fecha_fin), ejecutivo__usuario__email__icontains = valor )
-        #consultar por Remitente
-        if tipo == "2":
-            return Correo.objects.filter(created_at__range = (fecha_ini,fecha_fin), desde__icontains = valor )
-        #consultar por Subject
-        if tipo == "3":
-            return Correo.objects.filter(created_at__range = (fecha_ini,fecha_fin), subject__icontains = valor )
-        #consultar por Estado
-        if tipo == "4":
-            return Correo.objects.filter(created_at__range = (fecha_ini,fecha_fin), estado__nombre__icontains = valor )
+        if valor != "":
+            #consultar por Ejecutivo
+            if tipo == "1":
+                return Correo.objects.filter(created_at__range = (fecha_ini,fecha_fin), ejecutivo__email__icontains = valor )
+            #consultar por Remitente
+            if tipo == "2":
+                return Correo.objects.filter(created_at__range = (fecha_ini,fecha_fin), desde__icontains = valor )
+            #consultar por Subject
+            if tipo == "3":
+                return Correo.objects.filter(created_at__range = (fecha_ini,fecha_fin), subject__icontains = valor )
+            #consultar por Estado
+            if tipo == "4":
+                return Correo.objects.filter(created_at__range = (fecha_ini,fecha_fin), estado__nombre__icontains = valor )
         #solo por fecha
         else:
             return Correo.objects.filter(created_at__range = (fecha_ini,fecha_fin))
         
     def get(self, *args, **kwargs):
-        if self.request.user.is_superuser:
+        if self.request.user.is_superuser or self.request.user.is_staff:
             return super().get(*args, **kwargs)
         else:
             return redirect(reverse_lazy('master:menu'))
@@ -76,13 +77,13 @@ class ListarEjecutivos(ListView):
         return context
     
     def get(self, *args, **kwargs):
-        if self.request.user.is_superuser:
+        if self.request.user.is_superuser or self.request.user.is_staff:
             return super().get(*args, **kwargs)
         else:
             return redirect('master:menu')
     
     def get_queryset(self):
-        return Usuario.objects.filter(is_superuser = False, is_staff = False)
+        return Usuario.objects.filter(is_superuser = False, is_staff = False, is_active = True)
 
 @method_decorator(login_required, name='dispatch')
 class CrearEjecutivo(CreateView):
@@ -104,7 +105,7 @@ class CrearEjecutivo(CreateView):
         return context
     
     def get(self, request):
-        if self.request.user.is_superuser:
+        if self.request.user.is_superuser or self.request.user.is_staff:
             return super().get(request)
         return redirect("master:index")        
 
@@ -156,8 +157,9 @@ def destroy(request,pk):
                 usuario = Usuario.objects.get(id=pk)
             except:
                 return redirect("correos:ejecutivos")
-            usuario.delete()
-    return redirect("usuarios:index")    
+            usuario.is_active = False
+            usuario.save()
+    return redirect("correos:ejecutivos")    
 
 @login_required(login_url="/")
 def asignar_agentes(request):

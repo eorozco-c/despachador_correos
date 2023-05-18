@@ -1,0 +1,4 @@
+[28-04-2023 16:39:33] | INFO | Iniciando servicio de correo
+[28-04-2023 16:40:26] | INFO | Se deriva correo a ejecutivo: ernestorozco94@gmail.com -> titulo [EXTERNAL] Fwd: DEVOLUCION DE PRIMA POR DUPLICIDAD/ Nivel 1 - Duplicidad Req 20230097866371 Rut 9786637-6 Vence 03-05
+[28-04-2023 16:40:26] | ERROR | Ocurrio un error: name 'sender' is not defined
+[28-04-2023 16:40:47] | INFO | Servicio de correo finalizado

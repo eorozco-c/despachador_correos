@@ -34,7 +34,7 @@
                         href="{% url 'correos:editar_ejecutivo' pk=usuario.id %}" usuario="{{usuario.id}}" id="edit"><i
                             class="fas fa-edit"></i></a>
                     <a class="open-modal btn btn-danger btn-sm text-light border border-dark m-1" data-bs-toggle="modal"
-                        data-bs-target="#modal" data-popup-url="{% url 'usuarios:predestroy' pk=usuario.id %}" href="">
+                        data-bs-target="#modal" data-popup-url="{% url 'correos:predestroy' pk=usuario.id %}" href="">
                         <i class="fas fa-trash"></i> </a>
                     {% endif %}
                 </td>
@@ -81,7 +81,7 @@
                     "</p>";
                 $(".modal-body").append(Datos);
                 $("#delete").click(function () {
-                    window.location.href = "/usuarios/destroy/" + data["id"];
+                    window.location.href = "/correos/destroy/" + data["id"];
                 })
             }
         });

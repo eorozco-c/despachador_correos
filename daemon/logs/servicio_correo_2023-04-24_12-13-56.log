@@ -1,0 +1,987 @@
+[24-04-2023 12:13:56] | INFO | Iniciando servicio de correo
+[27-04-2023 04:08:45] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:08:45] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:09:10] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:09:10] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:09:34] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:09:34] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:10:17] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:10:17] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:10:41] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:10:41] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:11:06] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:11:06] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:12:16] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:12:16] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:12:41] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:12:41] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:13:33] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:13:33] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:13:58] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:13:58] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:14:22] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:14:22] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:15:22] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:15:22] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:15:59] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:15:59] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:16:23] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:16:23] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:17:28] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:17:28] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:17:52] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:17:52] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:18:16] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:18:16] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:19:05] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:19:05] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:19:32] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:19:32] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:20:11] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:20:11] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:20:35] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:20:35] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:21:00] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:21:00] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:21:54] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:21:54] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:23:20] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:23:20] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:23:44] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:23:44] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:24:54] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 04:25:17] | WARNING | Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 04:25:41] | WARNING | Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 04:26:32] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:26:32] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:26:57] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:26:57] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:27:21] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:27:21] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:28:04] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:28:04] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:28:47] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:28:47] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:29:14] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:29:14] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:29:38] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:29:38] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:32:00] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:32:00] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:32:36] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:32:36] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:33:01] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:33:01] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:33:25] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:33:25] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:34:18] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:34:18] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:34:42] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:34:42] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:35:06] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:35:06] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:35:37] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:35:37] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:37:53] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 04:38:17] | WARNING | Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 04:38:41] | WARNING | Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 04:39:39] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:39:39] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:40:06] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:40:06] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:40:30] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:40:30] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:41:07] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:41:07] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:41:31] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:41:31] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:41:55] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:41:55] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:42:51] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 04:46:21] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 04:46:44] | WARNING | Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 04:47:09] | WARNING | Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 04:49:27] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:49:27] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:50:10] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:50:10] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:50:34] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:50:34] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:50:59] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:50:59] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:52:13] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:52:13] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:52:37] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:52:37] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:53:01] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:53:01] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:53:56] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:53:56] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:54:20] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:54:20] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:54:57] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:54:57] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:55:21] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:55:21] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:55:58] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:55:58] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:56:22] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:56:22] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:56:47] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:56:47] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:57:34] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:57:34] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:57:59] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:57:59] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:58:23] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:58:23] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 04:59:17] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 04:59:17] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:01:29] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:01:29] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:01:53] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:01:53] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:02:17] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:02:17] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:03:16] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 05:03:40] | WARNING | Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 05:04:05] | WARNING | Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 05:05:02] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 05:05:25] | WARNING | Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 05:05:49] | WARNING | Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 05:06:19] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:06:19] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:06:43] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:06:43] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:07:08] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:07:08] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:07:59] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:07:59] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:08:47] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:08:47] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:09:14] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:09:14] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:09:38] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:09:38] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:11:01] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 05:11:47] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:11:47] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:13:17] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:13:17] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:13:41] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:13:41] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:14:06] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:14:06] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:15:42] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:15:42] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:16:06] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:16:06] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:16:56] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:16:56] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:17:20] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:17:20] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:19:47] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:19:47] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:20:12] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:20:12] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:21:05] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:21:05] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:21:36] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:21:36] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:22:25] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 05:22:50] | WARNING | Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 05:24:12] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:24:12] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:24:37] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:24:37] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:25:25] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:25:25] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:25:59] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 05:27:01] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:27:01] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:29:30] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 05:30:10] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:30:10] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:31:11] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:31:11] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:31:36] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:31:36] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:32:00] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:32:00] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:32:43] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:32:43] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:34:00] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:34:00] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:34:24] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:34:24] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:35:01] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:35:01] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:35:40] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:35:40] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:36:05] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:36:05] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:37:10] | ERROR | Unable to fetch auth token. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[27-04-2023 05:37:10] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:37:34] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:37:34] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:37:58] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:37:58] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:38:58] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:38:58] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:39:53] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:39:53] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:40:18] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:40:18] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:40:45] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:40:45] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:41:30] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:41:30] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:41:55] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:41:55] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:42:19] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:42:19] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:43:13] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:43:13] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:43:37] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:43:37] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:44:01] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:44:01] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:44:44] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:44:44] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:45:09] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:45:09] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:46:10] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:46:10] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:46:34] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:46:34] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:46:59] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:46:59] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:47:48] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:47:48] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:48:12] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:48:12] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:48:36] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:48:36] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:49:34] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:49:34] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:49:58] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:49:58] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:50:23] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:50:23] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:51:06] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:51:06] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:51:30] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:51:30] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:52:19] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:52:19] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:52:43] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:52:43] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:53:33] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:53:33] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:53:57] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:53:57] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:54:21] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:54:21] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:55:11] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 05:55:34] | WARNING | Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 05:55:59] | WARNING | Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 05:56:51] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:56:51] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:57:15] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:57:15] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:57:40] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:57:40] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:58:25] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:58:25] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:58:49] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:58:49] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 05:59:14] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 05:59:14] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:00:20] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:00:20] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:00:45] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:00:45] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:01:09] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:01:09] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:01:46] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:01:46] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:02:10] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:02:10] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:02:34] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:02:34] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:03:22] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:03:22] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:03:46] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:03:46] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:04:11] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:04:11] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:04:54] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:04:54] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:07:12] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:07:12] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:07:37] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:07:37] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:08:01] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:08:01] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:08:41] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 06:09:05] | WARNING | Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 06:09:30] | WARNING | Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 06:10:18] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:10:18] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:10:42] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:10:42] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:11:57] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:11:57] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:12:58] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:12:58] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:13:23] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:13:23] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:14:17] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:14:17] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:14:41] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:14:41] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:15:06] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:15:06] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:15:55] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:15:55] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:16:20] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:16:20] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:16:46] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:16:46] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:17:36] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:17:36] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:18:00] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:18:00] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:18:24] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:18:24] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:19:07] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:19:07] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:19:31] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:19:31] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:19:56] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:19:56] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:20:38] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:20:38] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:21:03] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:21:03] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:21:27] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:21:27] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:24:19] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:24:19] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:24:43] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:24:43] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:25:38] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:25:38] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:26:03] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:26:03] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:26:27] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:26:27] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:27:15] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:27:15] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:27:39] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:27:39] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:28:59] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:28:59] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:29:23] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:29:23] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:30:00] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:30:00] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:30:24] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:30:24] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:31:23] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 06:31:47] | WARNING | Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 06:32:12] | WARNING | Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 06:33:04] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:33:04] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:33:28] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:33:28] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:33:52] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:33:52] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:34:36] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:34:36] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:35:47] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:35:47] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:36:11] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:36:11] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:36:35] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:36:35] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:40:01] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:40:01] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:40:26] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:40:26] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:40:50] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:40:50] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:41:39] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:41:39] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:42:03] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:42:03] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:42:28] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:42:28] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:43:17] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:43:17] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:44:28] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:44:28] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:44:52] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:44:52] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:45:16] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:45:16] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:45:59] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:45:59] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:46:24] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:46:24] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:46:48] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:46:48] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:47:50] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:47:50] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:48:14] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:48:14] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:48:38] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:48:38] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:49:28] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:49:28] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:49:52] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:49:52] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:53:03] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:53:03] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:53:27] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:53:27] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:53:51] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:53:51] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:54:37] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:54:37] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:55:01] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:55:01] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:55:25] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:55:25] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:56:13] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:56:13] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:56:37] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:56:37] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:57:14] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:57:14] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:57:41] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:57:41] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:58:10] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:58:10] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:58:43] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:58:43] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:59:07] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:59:07] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 06:59:32] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 06:59:32] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:00:25] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:00:25] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:00:49] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:00:49] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:01:13] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:01:13] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:02:05] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:02:05] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:02:29] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:02:29] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:02:53] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:02:53] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:03:36] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:03:36] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:05:02] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:05:02] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:05:26] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:05:26] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:05:57] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:05:57] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:06:22] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:06:22] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:06:46] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:06:46] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:07:42] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 07:08:05] | WARNING | Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 07:08:30] | WARNING | Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 07:09:15] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:09:15] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:09:39] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:09:39] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:10:03] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:10:03] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:13:02] | ERROR | Unable to fetch auth token. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[27-04-2023 07:13:02] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:13:27] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:13:27] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:13:51] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:13:51] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:14:28] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:14:28] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:14:52] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:14:52] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:15:17] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:15:17] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:16:03] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:16:03] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:16:28] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:16:28] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:16:52] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:16:52] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:17:44] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:17:44] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:18:09] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:18:09] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:18:36] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:18:36] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:19:12] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:19:12] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:19:58] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 07:20:23] | WARNING | Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 07:20:48] | WARNING | Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 07:21:42] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:21:42] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:22:13] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:22:13] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:22:37] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:22:37] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:23:02] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:23:02] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:24:00] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:24:00] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:24:25] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:24:25] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:24:49] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:24:49] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:25:40] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:25:40] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:26:04] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:26:04] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:27:22] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:27:22] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:27:46] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:27:46] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:28:10] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:28:10] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:29:04] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:29:04] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:29:29] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:29:29] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:30:24] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:30:24] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:30:48] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:30:48] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:31:12] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:31:12] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:32:17] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:32:17] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:32:42] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:32:42] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:33:06] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:33:06] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:34:12] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:34:12] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:34:37] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:34:37] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:35:26] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:35:26] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:35:56] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:35:56] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:36:20] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:36:20] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:36:45] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:36:45] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:37:37] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:37:37] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:38:02] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:38:02] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:38:26] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:38:26] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:39:09] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:39:09] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:39:33] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:39:33] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:39:58] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:39:58] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:40:40] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:40:40] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:41:05] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:41:05] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:41:29] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:41:29] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:44:56] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:44:56] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:45:33] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:45:33] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:45:57] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:45:57] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:46:22] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:46:22] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:47:15] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 07:47:41] | WARNING | Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 07:48:21] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:48:21] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:49:29] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 07:49:53] | WARNING | Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 07:50:18] | WARNING | Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 07:52:11] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:52:11] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:52:36] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:52:36] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:53:00] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:53:00] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:54:50] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:54:50] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:55:14] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:55:14] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:55:39] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:55:39] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:56:17] | ERROR | Unable to fetch auth token. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[27-04-2023 07:56:17] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:56:41] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:56:41] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:57:05] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:57:05] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:58:19] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:58:19] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:59:11] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:59:11] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:59:35] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:59:35] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 07:59:59] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 07:59:59] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:00:30] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:00:30] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:00:54] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:00:54] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:01:19] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:01:19] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:02:42] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:02:42] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:04:47] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 08:05:33] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:05:33] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:05:58] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:05:58] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:06:22] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:06:22] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:07:06] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:07:06] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:07:30] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:07:30] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:07:55] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:07:55] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:08:47] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:08:47] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:09:12] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:09:12] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:09:41] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:09:41] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:11:07] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:11:07] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:11:31] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:11:31] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:11:55] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:11:55] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:12:48] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:12:48] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:13:46] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:13:46] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:14:11] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:14:11] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:14:38] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:14:38] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:15:21] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:15:21] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:15:45] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:15:45] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:16:09] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:16:09] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:16:55] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:16:55] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:17:19] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:17:19] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:18:33] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:18:33] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:18:57] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:18:57] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:19:21] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:19:21] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:20:21] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:20:21] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:20:46] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:20:46] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:21:29] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:21:29] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:21:53] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:21:53] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:22:17] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:22:17] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:23:15] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:23:15] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:23:39] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:23:39] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:24:04] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:24:04] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:24:55] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:24:55] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:25:32] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:25:32] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:25:57] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:25:57] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:26:22] | ERROR | Unable to fetch auth token. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[27-04-2023 08:26:22] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:28:51] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:28:51] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:29:15] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:29:15] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:29:42] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:29:42] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:30:54] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:30:54] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:31:19] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:31:19] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:31:43] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:31:43] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:32:35] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 08:33:15] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:33:15] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:33:42] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:33:42] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:34:07] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:34:07] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:34:54] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:34:54] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:35:19] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:35:19] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:36:24] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:36:24] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:36:48] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:36:48] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:37:13] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:37:13] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:38:02] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:38:02] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:38:26] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:38:26] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:38:50] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:38:50] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:40:54] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:40:54] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:41:18] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:41:18] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:41:43] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:41:43] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:42:52] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:42:52] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:43:16] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:43:16] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:43:41] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:43:41] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:44:37] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:44:37] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:45:20] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:45:20] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:46:12] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:46:12] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:47:14] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 08:47:41] | WARNING | Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 08:48:05] | WARNING | Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 08:48:44] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 08:49:30] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:49:30] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:49:57] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:49:57] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:50:21] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:50:21] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:51:04] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:51:04] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:51:59] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:51:59] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:52:24] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:52:24] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:52:48] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:52:48] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:53:41] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:53:41] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:54:07] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:54:07] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:54:34] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:54:34] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:55:28] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:55:28] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:55:52] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:55:52] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:56:17] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:56:17] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:57:08] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:57:08] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:57:33] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:57:33] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:57:57] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:57:57] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:58:34] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:58:34] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:58:58] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:58:58] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 08:59:22] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 08:59:22] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:00:17] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:00:17] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:00:42] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:00:42] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:01:06] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:01:06] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:01:56] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:01:56] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:02:22] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:02:22] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:02:47] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:02:47] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:03:30] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:03:30] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:03:54] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:03:54] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:08:38] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 09:09:02] | WARNING | Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 09:09:27] | WARNING | Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 09:10:07] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:10:07] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:10:32] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:10:32] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:10:56] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:10:56] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:11:39] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:11:39] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:12:03] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:12:03] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:12:46] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:12:46] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:13:10] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:13:10] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:13:35] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:13:35] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:14:26] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:14:26] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:14:51] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:14:51] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:15:15] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:15:15] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:16:19] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:16:19] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:16:44] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:16:44] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:17:08] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:17:08] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:19:17] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:19:17] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:21:26] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:21:26] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:21:51] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:21:51] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:22:15] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:22:15] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:23:06] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:23:06] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:23:31] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:23:31] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:23:55] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:23:55] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:25:37] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:25:37] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:26:14] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:26:14] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:26:39] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:26:39] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:27:03] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:27:03] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:28:09] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:28:09] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:28:34] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:28:34] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:28:58] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:28:58] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:29:47] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:29:47] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:30:12] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:30:12] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:30:36] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:30:36] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:31:30] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 09:31:54] | WARNING | Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 09:32:18] | WARNING | Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 09:33:04] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:33:04] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:33:28] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:33:28] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:33:53] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:33:53] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:34:43] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:34:43] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:35:07] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:35:07] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:35:32] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:35:32] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:36:15] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 09:36:39] | WARNING | Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 09:38:26] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 09:38:49] | WARNING | Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 09:39:13] | WARNING | Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 09:40:08] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:40:08] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:40:33] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:40:33] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:40:57] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:40:57] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:44:12] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:44:12] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:47:21] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:47:21] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:47:46] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:47:46] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:48:10] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:48:10] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:49:58] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:49:58] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:50:23] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:50:23] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:50:56] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:50:56] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:52:11] | ERROR | Unable to fetch auth token. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[27-04-2023 09:52:11] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:52:35] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:52:35] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:52:59] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:52:59] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:53:42] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:53:42] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:54:25] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:54:25] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:54:49] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:54:49] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:55:29] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:55:29] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:56:10] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:56:10] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:56:34] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:56:34] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:56:59] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:56:59] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:57:53] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:57:53] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:58:17] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:58:17] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:58:41] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:58:41] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 09:59:44] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 09:59:44] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 10:00:09] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 10:00:09] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 10:00:33] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 10:00:33] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 10:01:27] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 10:01:50] | WARNING | Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 10:02:14] | WARNING | Retrying (Retry(total=0, connect=3, read=0, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='graph.microsoft.com', port=443): Read timed out. (read timeout=None)")': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[27-04-2023 10:03:02] | ERROR | Unable to fetch auth token. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[27-04-2023 10:03:02] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 10:03:26] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 10:03:26] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 10:03:50] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 10:03:50] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 10:04:33] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 10:04:33] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 10:04:58] | ERROR | Unable to fetch auth token. Error: HTTPSConnectionPool(host='login.microsoftonline.com', port=443): Read timed out. (read timeout=None)
+[27-04-2023 10:04:58] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[27-04-2023 10:29:05] | INFO | Servicio de correo finalizado

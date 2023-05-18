@@ -1,0 +1,69 @@
+[17-04-2023 17:01:41] | INFO | Iniciando servicio de correo
+[17-04-2023 17:01:42] | ERROR | Unable to fetch auth token. Error: (unauthorized_client) AADSTS700016: Application with identifier 'c2eb4483-pffe-4f73-b9f1-154dac805cdb' was not found in the directory 'Banchile Seguros de Vida S.A'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.
+Trace ID: 6eee6e1d-68b4-4797-8590-95cf1c4dc900
+Correlation ID: fd8a0ddd-1fc6-463d-8140-cebc13a679ef
+Timestamp: 2023-04-17 21:01:42Z
+[17-04-2023 17:01:42] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[17-04-2023 17:01:48] | ERROR | Unable to fetch auth token. Error: (unauthorized_client) AADSTS700016: Application with identifier 'c2eb4483-pffe-4f73-b9f1-154dac805cdb' was not found in the directory 'Banchile Seguros de Vida S.A'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.
+Trace ID: daa6f14c-4983-405e-9930-2479fc1ab800
+Correlation ID: b4295a07-25da-48e3-94d7-a02fe1351f86
+Timestamp: 2023-04-17 21:01:48Z
+[17-04-2023 17:01:48] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[17-04-2023 17:01:53] | ERROR | Unable to fetch auth token. Error: (unauthorized_client) AADSTS700016: Application with identifier 'c2eb4483-pffe-4f73-b9f1-154dac805cdb' was not found in the directory 'Banchile Seguros de Vida S.A'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.
+Trace ID: a94972db-0271-4cbd-ab0a-c32791f7d400
+Correlation ID: df616f2f-fe3f-40a7-adb2-daec2a3da3d0
+Timestamp: 2023-04-17 21:01:53Z
+[17-04-2023 17:01:53] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[17-04-2023 17:01:59] | ERROR | Unable to fetch auth token. Error: (unauthorized_client) AADSTS700016: Application with identifier 'c2eb4483-pffe-4f73-b9f1-154dac805cdb' was not found in the directory 'Banchile Seguros de Vida S.A'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.
+Trace ID: 3962f1cc-cbc4-4c25-b615-2dc3a335c200
+Correlation ID: 1aa396ae-9ac3-493b-aa41-415e97c803a2
+Timestamp: 2023-04-17 21:01:59Z
+[17-04-2023 17:01:59] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[17-04-2023 17:02:05] | ERROR | Unable to fetch auth token. Error: (unauthorized_client) AADSTS700016: Application with identifier 'c2eb4483-pffe-4f73-b9f1-154dac805cdb' was not found in the directory 'Banchile Seguros de Vida S.A'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.
+Trace ID: ccccc495-55f6-4d0c-aa8b-c402608a9700
+Correlation ID: 1aafa22e-b155-4fa7-ae45-6235faca0013
+Timestamp: 2023-04-17 21:02:04Z
+[17-04-2023 17:02:05] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[17-04-2023 17:02:10] | ERROR | Unable to fetch auth token. Error: (unauthorized_client) AADSTS700016: Application with identifier 'c2eb4483-pffe-4f73-b9f1-154dac805cdb' was not found in the directory 'Banchile Seguros de Vida S.A'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.
+Trace ID: 093af9a4-811a-43fb-b23f-0d03c7049a00
+Correlation ID: 98ab18b5-346a-4805-823b-32c9f8842994
+Timestamp: 2023-04-17 21:02:10Z
+[17-04-2023 17:02:10] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[17-04-2023 17:02:16] | ERROR | Unable to fetch auth token. Error: (unauthorized_client) AADSTS700016: Application with identifier 'c2eb4483-pffe-4f73-b9f1-154dac805cdb' was not found in the directory 'Banchile Seguros de Vida S.A'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.
+Trace ID: 08e2238a-d210-42fd-b1c6-4b75fb7c0d00
+Correlation ID: 1bba2d78-51e7-4732-a620-c48c07b45efe
+Timestamp: 2023-04-17 21:02:16Z
+[17-04-2023 17:02:16] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[17-04-2023 17:02:22] | ERROR | Unable to fetch auth token. Error: (unauthorized_client) AADSTS700016: Application with identifier 'c2eb4483-pffe-4f73-b9f1-154dac805cdb' was not found in the directory 'Banchile Seguros de Vida S.A'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.
+Trace ID: 0f8e387f-7853-4e3f-aeed-cba31fbe9700
+Correlation ID: 87027661-9f1b-4953-a100-41cf355bcbd9
+Timestamp: 2023-04-17 21:02:22Z
+[17-04-2023 17:02:22] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[17-04-2023 17:02:27] | ERROR | Unable to fetch auth token. Error: (unauthorized_client) AADSTS700016: Application with identifier 'c2eb4483-pffe-4f73-b9f1-154dac805cdb' was not found in the directory 'Banchile Seguros de Vida S.A'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.
+Trace ID: 4fa22293-c012-4b40-82f1-35bfd4769d00
+Correlation ID: 1f33f31c-81ee-459c-a775-676d5f7cdd64
+Timestamp: 2023-04-17 21:02:27Z
+[17-04-2023 17:02:27] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[17-04-2023 17:02:33] | ERROR | Unable to fetch auth token. Error: (unauthorized_client) AADSTS700016: Application with identifier 'c2eb4483-pffe-4f73-b9f1-154dac805cdb' was not found in the directory 'Banchile Seguros de Vida S.A'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.
+Trace ID: 3f599aa0-ebf7-4608-aa6a-b009e6eb8800
+Correlation ID: f1ee6877-8984-446b-8cc2-c9beac362f80
+Timestamp: 2023-04-17 21:02:33Z
+[17-04-2023 17:02:33] | ERROR | Fallo en la autenticacion, favor validar expiracion de credenciales
+[17-04-2023 17:02:40] | INFO | Se deriva correo a ejecutivo: ernestorozco94@gmail.com
+[17-04-2023 17:02:48] | INFO | Se deriva correo a ejecutivo: kevin.rivas@telectronic.com
+[17-04-2023 17:02:56] | INFO | Se deriva correo a ejecutivo: cynthia.pino@telectronic.com
+[17-04-2023 17:03:03] | INFO | Se deriva correo a ejecutivo: ernestorozco94@gmail.com
+[17-04-2023 17:03:11] | INFO | Se deriva correo a ejecutivo: kevin.rivas@telectronic.com
+[17-04-2023 17:03:19] | INFO | Se deriva correo a ejecutivo: cynthia.pino@telectronic.com
+[17-04-2023 17:03:27] | INFO | Se deriva correo a ejecutivo: ernestorozco94@gmail.com
+[17-04-2023 17:04:57] | INFO | Se deriva correo a ejecutivo: kevin.rivas@telectronic.com
+[17-04-2023 17:05:43] | INFO | Se deriva correo a ejecutivo: cynthia.pino@telectronic.com
+[18-04-2023 09:19:48] | INFO | Se deriva correo a ejecutivo: ernestorozco94@gmail.com
+[18-04-2023 09:20:01] | INFO | Se deriva correo a ejecutivo: kevin.rivas@telectronic.com
+[18-04-2023 09:20:09] | INFO | Se deriva correo a ejecutivo: cynthia.pino@telectronic.com
+[18-04-2023 09:20:16] | INFO | Se deriva correo a ejecutivo: ernestorozco94@gmail.com
+[18-04-2023 09:20:30] | INFO | Se deriva correo a ejecutivo: kevin.rivas@telectronic.com
+[18-04-2023 09:22:02] | INFO | Se deriva correo a ejecutivo: cynthia.pino@telectronic.com
+[18-04-2023 09:22:28] | INFO | Se deriva correo a ejecutivo: ernestorozco94@gmail.com
+[18-04-2023 09:22:54] | INFO | Se deriva correo a ejecutivo: kevin.rivas@telectronic.com
+[18-04-2023 14:27:31] | ERROR | Ocurrio un error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. Reason: Server is in single user mode. Only one administrator can connect at this time. (18461) (SQLDriverConnect); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. Reason: Server is in single user mode. Only one administrator can connect at this time. (18461)")

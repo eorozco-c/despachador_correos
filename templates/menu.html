@@ -8,7 +8,9 @@
             <div class="card-body">
                 <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                        <div class="text-xs font-weight-bold text-primary mb-1">EJECUTIVOS ASIGNADOS</div>
+                        <div class="text-xs font-weight-bold text-primary mb-1">
+	                    <a href="{% url 'correos:ejecutivos_asignados' %}">EJECUTIVOS ASIGNADOS</a>
+			</div>
                         <div class="h5 mb-0 font-weight-bold text-gray-800">
                             {{ejecutivos}}
                         </div>
@@ -27,13 +29,15 @@
             <div class="card-body">
                 <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                        <div class="text-xs font-weight-bold text-primary mb-1">CORREOS DESPACHADOS HOY</div>
+                        <div class="text-xs font-weight-bold text-primary mb-1">
+			    <a href="{% url 'correos:correos' %}">CORREOS DESPACHADOS HOY</a>
+			</div>
                         <div class="h5 mb-0 font-weight-bold text-gray-800">
                             {{correos_despachados}}
                         </div>
                     </div>
                     <div class="col-auto">
-                        <i class="fas fa-phone fa-2x text-gray-300"></i>
+                        <i class="fas fa-envelope fa-2x text-gray-300"></i>
                     </div>
                 </div>
             </div>
@@ -44,7 +48,7 @@
         <div class="card shadow mb-4">
             <!-- Card Header - Dropdown -->
             <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">Chart</h6>
+                <h6 class="m-0 font-weight-bold text-primary">CORREOS DESPACHADOS POR DIA</h6>
             </div>
             <!-- Card Body -->
             <div class="card-body">
@@ -75,13 +79,24 @@
                 }),
                 datasets: [{
                     label: 'Correos despachados por dia',
-                    backgroundColor: 'rgb(255, 99, 132)',
-                    borderColor: 'rgb(255, 99, 132)',
+                    backgroundColor: 'rgba(40, 23, 172, 0.687)',
+                    borderColor: 'rgba(40, 23, 172, 0.687)',
                     data: JSON.parse(datos_correos).map(function (e) {
                         return e.cantidad;
                     }),
                 }]
             },
+	options: {
+    		scales: {
+      		yAxes: [{
+       		ticks: {
+         	beginAtZero: true,
+          	min: 0,
+          	
+        }
+      }]
+    }
+  }
         });
     });
 </script>

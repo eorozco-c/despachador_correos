@@ -26,12 +26,6 @@ class FormularioNuevoEjecutivo(forms.ModelForm):
         validarLongitud(last_name,"apellido",2,15)
         return last_name
     
-    def clean_email(self):
-        email = self.cleaned_data["email"]
-        validarEmail(email)
-        if obtenerUsuario(email=email):
-            raise ValidationError("Correo ya existe")
-        return email
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -44,7 +38,7 @@ class FormularioNuevoEjecutivo(forms.ModelForm):
 class FormularioAsignarEjecutivo(forms.ModelForm):
 #multi select choices from model Usuario
     ejecutivos = forms.ModelMultipleChoiceField(
-        queryset=Usuario.objects.filter(is_staff=False, is_superuser=False, asignado=False),
+        queryset=Usuario.objects.filter(is_staff=False, is_superuser=False, asignado=False, is_active= True),
         widget=forms.SelectMultiple(attrs={'class': 'form-control',"size":"10"}),
         required=False
     )

@@ -1,0 +1,4 @@
+[28-04-2023 16:37:18] | INFO | Iniciando servicio de correo
+[28-04-2023 16:38:05] | INFO | Se deriva correo a ejecutivo: ernestorozco94@gmail.com -> titulo [EXTERNAL] Fwd: DEVOLUCION DE PRIMA POR DUPLICIDAD/ Nivel 1 - Duplicidad Req 20230097866371 Rut 9786637-6 Vence 03-05
+[28-04-2023 16:38:05] | ERROR | Ocurrio un error: 'Recipient' object has no attribute 'replace'
+[28-04-2023 16:39:32] | INFO | Servicio de correo finalizado

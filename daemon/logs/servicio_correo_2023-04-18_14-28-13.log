@@ -1,0 +1,2 @@
+[18-04-2023 14:28:13] | INFO | Iniciando servicio de correo
+[18-04-2023 14:28:14] | ERROR | Ocurrio un error: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. Reason: Server is in single user mode. Only one administrator can connect at this time. (18461) (SQLDriverConnect); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. Reason: Server is in single user mode. Only one administrator can connect at this time. (18461)")

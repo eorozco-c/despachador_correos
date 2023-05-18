@@ -74,10 +74,15 @@ def main(cursor):
             to_forward.to.add(ejecutivo)
             to_forward.body = f'Enviado por: {message.sender}\n\n\n'
             to_forward.send()
-            logging.info(f"Se deriva correo a ejecutivo: {ejecutivo}")
+            logging.info(f"Se deriva correo a ejecutivo: {ejecutivo} -> titulo {message.subject}")
+            #clear all variables when have ' and replace for ""
+            subject = message.subject
+            subject = subject.replace("'", "")
+            body = message.body
+            body = body.replace("'", "")
             print(f"Se deriva correo a ejecutivo: {ejecutivo}")
             #update the updated_at field
-            cursor.execute(f"INSERT INTO dbo.correos_correo (subject,body,desde,created_at,updated_at,configuracion_id,estado_id,ejecutivo_id) VALUES ('{message.subject}','{message.body}','{message.sender}',GETDATE(),GETDATE(),{id_conf},2,{id})")
+            cursor.execute(f"INSERT INTO dbo.correos_correo (subject,body,desde,created_at,updated_at,configuracion_id,estado_id,ejecutivo_id) VALUES ('{subject}','{body}','{message.sender}',GETDATE(),GETDATE(),{id_conf},2,{id})")
             cursor.commit()
     else:
         logging.error('Fallo en la autenticacion, favor validar expiracion de credenciales')

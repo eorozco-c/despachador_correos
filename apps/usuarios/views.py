@@ -189,5 +189,6 @@ def destroy(request,pk):
                 usuario = Usuario.objects.get(id=pk)
             except:
                 return redirect("usuarios:index")
-            usuario.delete()
+            usuario.is_active = False
+            usuario.save()
     return redirect("usuarios:index")

@@ -17,6 +17,8 @@ class Ejecutivo(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     usuario=models.ForeignKey(Usuario, on_delete=models.PROTECT)
     
+def get_email(usuario): 
+    return usuario.email
 
 class Correo(models.Model):
     subject = models.CharField(max_length=255,blank=True,null=True)
@@ -24,6 +26,6 @@ class Correo(models.Model):
     desde = models.CharField(max_length=255,blank=True,null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    ejecutivo = models.ForeignKey(Usuario, on_delete=models.SET_NULL,blank=True,null=True)
+    ejecutivo = models.ForeignKey(Usuario, on_delete=models.PROTECT, blank=True, null=True)    
     configuracion = models.ForeignKey(Configuracion, on_delete=models.PROTECT)
     estado = models.ForeignKey(Estado, on_delete=models.PROTECT)

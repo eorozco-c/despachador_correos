@@ -1,0 +1,11 @@
+[27-04-2023 16:23:01] | INFO | Iniciando servicio de correo
+[27-04-2023 16:23:04] | INFO | Se deriva correo a ejecutivo: cynthia.priscila.pino@gmail.com
+[27-04-2023 16:23:36] | INFO | Se deriva correo a ejecutivo: cynthia.priscila.pino@gmail.com
+[27-04-2023 16:23:43] | INFO | Se deriva correo a ejecutivo: cynthia.priscila.pino@gmail.com
+[27-04-2023 16:23:51] | INFO | Se deriva correo a ejecutivo: cynthia.priscila.pino@gmail.com
+[27-04-2023 16:23:58] | INFO | Se deriva correo a ejecutivo: cynthia.priscila.pino@gmail.com
+[28-04-2023 11:39:51] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[28-04-2023 11:40:27] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[28-04-2023 11:40:38] | WARNING | Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[28-04-2023 11:40:41] | WARNING | Retrying (Retry(total=1, connect=3, read=1, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))': /v1.0/users/test_despachador@banchilevida.cl/messages?%24top=1&%24filter=isRead+eq+false
+[28-04-2023 16:25:46] | INFO | Servicio de correo finalizado

@@ -1,0 +1,2 @@
+[28-04-2023 16:27:17] | INFO | Iniciando servicio de correo
+[28-04-2023 16:27:17] | ERROR | Ocurrio un error: [Errno 13] Permission denied: 'o365_token.txt'
